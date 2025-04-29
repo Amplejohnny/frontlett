@@ -18,8 +18,8 @@ type User = {
   role: "employee" | "business" | "admin" | "adviser" | "influencer";
   // linkedIn: string;
   created_at: string;
-  profile: Profile
-  percentage_completed: number
+  profile: Profile;
+  percentage_completed: number;
 };
 
 interface Profile {
@@ -31,7 +31,13 @@ interface Profile {
   skills: string[];
   rate: number;
   is_completed: boolean;
-  steps: number
+  steps: number;
+}
+
+interface ResetPasswordPayload {
+  email: string;
+  password: string;
+  token: string;
 }
 
 interface UseAuthStore {
@@ -42,7 +48,7 @@ interface UseAuthStore {
   updateCode: (code: string) => void;
   number: string;
   step: number;
-  updateStep: (step:number) => void;
+  updateStep: (step: number) => void;
   updateNumber: (code: string) => void;
   signIn: (form: { email: string; password: string }) => Promise<any>;
   fetchCurrentUser: () => Promise<void>;
@@ -50,7 +56,9 @@ interface UseAuthStore {
   updateUser: (user: any) => void;
   logout: () => Promise<void>;
   // google: (state: {code: string, mode: 'register' | 'login', redirectUrl: string, state?: string|null}, details?: any) => Promise<void>;
-  google: (details?: any) => Promise<{success: boolean; url: string}>;
+  google: (details?: any) => Promise<{ success: boolean; url: string }>;
+  sendResetLink: (email: string) => Promise<any>;
+  resetPassword: (payload: ResetPasswordPayload) => Promise<any>;
 }
 interface AuthResponse {
   code: number;
@@ -167,7 +175,10 @@ const useAuth = create<UseAuthStore>()(
       google: async (details) => {
         try {
           // const response: AxiosResponse = await get("/auth/google/callback", { ...state, ...details })
-          const response: AxiosResponse = await post(`/auth/google/callback`, details);
+          const response: AxiosResponse = await post(
+            `/auth/google/callback`,
+            details
+          );
 
           // const userData = response.data.data;
 
@@ -185,6 +196,41 @@ const useAuth = create<UseAuthStore>()(
             return Promise.reject({ username: "Invalid username or password" });
           }
           // Handle authentication errors
+        }
+      },
+      //forget password
+      sendResetLink: async (email: string) => {
+        try {
+          const response: AxiosResponse = await post("/auth/forgot-password", {
+            email,
+          });
+          return Promise.resolve(response.data?.success);
+        } catch (error: any) {
+          return Promise.reject({
+            general: "Failed to send reset link. Please try again.",
+          });
+        }
+      },
+      //reset password
+      resetPassword: async ({ email, password, token }) => {
+        try {
+          const response: AxiosResponse = await post("/auth/reset-password", {
+            email,
+            password,
+            token,
+          });
+
+          const { success } = response.data;
+          return Promise.resolve(success);
+        } catch (error: any) {
+          if (error.status === 422) {
+            const validationErrors: FormErrors = {};
+            for (const err in error.validationErrors) {
+              validationErrors[err] = error.validationErrors[err][0];
+            }
+            return Promise.reject(validationErrors);
+          }
+          return Promise.reject({ general: "Failed to reset password" });
         }
       },
     }),
