@@ -3,2479 +3,2599 @@ interface School {
   city: string;
   code: string;
 }
-const schools:School[] = [
+const schools: School[] = [
   {
     name: "University of Abuja, Gwagwalada",
     city: "Gwagwalada",
-    code: "Uniabuja"
+    code: "Uniabuja",
   },
   {
     name: "Abubakar Tafawa Balewa University, Bauchi",
     city: "Bauchi",
-    code: "ATBU Bauchi"
+    code: "ATBU Bauchi",
   },
   {
     name: "Ahmadu Bello University, Zaria",
     city: "Zaria",
-    code: "ABU Zaria"
+    code: "ABU Zaria",
   },
   {
     name: "Bayero University, Kano",
     city: "Kano",
-    code: "BUK"
+    code: "BUK",
   },
   {
     name: "Obafemi Awolowo University,Ile-Ife",
     city: "Ile-Ife",
-    code: "OAU Ile-Ife"
+    code: "OAU Ile-Ife",
   },
   {
     name: "Usumanu Danfodiyo University Sokoto",
     city: "Sokoto",
-    code: "UDOS"
+    code: "UDOS",
   },
   {
     name: "Federal University of Technology, Akure",
     city: "Akure",
-    code: "FUT Akure"
+    code: "FUT Akure",
   },
   {
     name: "Federal University of Agriculture, Abeokuta",
     city: "Abeokuta",
-    code: "FUA Abeokuta"
+    code: "FUA Abeokuta",
   },
   {
     name: "Modibbo Adama University of Technology, Yola",
     city: "Yola",
-    code: "MAUT Yola"
+    code: "MAUT Yola",
   },
   {
     name: "Michael Okpara University of Agricultural Umudike",
     city: "Umudike",
-    code: "MOUA Umudike"
+    code: "MOUA Umudike",
   },
   {
     name: "University of Agriculture, Makurdi",
     city: "Makurdi",
-    code: "Uniagric Makurdi"
+    code: "Uniagric Makurdi",
   },
   {
     name: "Federal University, Gusau",
     city: "Gusau",
-    code: "FU Gusau"
+    code: "FU Gusau",
   },
   {
     name: "Nigerian Defence Academy Kaduna",
     city: "Kaduna",
-    code: "NDA Kaduna"
+    code: "NDA Kaduna",
   },
   {
     name: "University of Calabar",
     city: "Calabar",
-    code: "Unical"
+    code: "Unical",
   },
   {
     name: "University of Ibadan",
     city: "Ibadan",
-    code: "UI"
+    code: "UI",
   },
   {
     name: "University of Ilorin",
     city: "Ilorin",
-    code: "unilorin"
+    code: "unilorin",
   },
   {
     name: "University of Jos",
     city: "Jos",
-    code: "Unijos"
+    code: "Unijos",
   },
   {
     name: "University of Lagos",
     city: "Lagos",
-    code: "Unilag"
+    code: "Unilag",
   },
   {
     name: "University of Maiduguri",
     city: "Maiduguri",
-    code: "Unimaid"
+    code: "Unimaid",
   },
   {
     name: "University of Nigeria, Nsukka",
     city: "Nsukka",
-    code: "UNN"
+    code: "UNN",
   },
   {
     name: "University of Port-Harcourt",
     city: "Port-Harcourt",
-    code: "Uniport"
+    code: "Uniport",
   },
   {
     name: "University of Uyo",
     city: "Uyo",
-    code: "Uniuyo"
+    code: "Uniuyo",
   },
   {
     name: "University of Benin",
     city: "Benin",
-    code: "Uniben"
+    code: "Uniben",
   },
   {
     name: "Nnamdi Azikiwe University, Awka",
     city: "Awka",
-    code: "Unizik"
+    code: "Unizik",
   },
   {
     name: "Nigeria Police Academy Wudil",
     city: "Wudil",
-    code: "NPA Wudil"
+    code: "NPA Wudil",
   },
   {
     name: "National Open University of Nigeria, Lagos",
     city: "Lagos",
-    code: "NOUN Lagos"
+    code: "NOUN Lagos",
   },
   {
     name: "Federal University, Birnin Kebbi",
     city: "Birnin Kebbi",
-    code: "FU Birnin-Kebbi"
+    code: "FU Birnin-Kebbi",
   },
   {
     name: "Federal University, Wukari",
     city: "Wukai",
-    code: "FU Wukari"
+    code: "FU Wukari",
   },
   {
     name: "Federal University, Oye-Ekiti",
     city: "Oye-Ekiti",
-    code: "FU Oye-Ekiti"
+    code: "FU Oye-Ekiti",
   },
   {
     name: "Federal University, Otuoke",
     city: "Otuoke",
-    code: "FU Otueke"
+    code: "FU Otueke",
   },
   {
     name: "Federal University, Ndifu-Alike",
     city: "Ndifu-Alike",
-    code: "FU Ndifu-Alike"
+    code: "FU Ndifu-Alike",
   },
   {
     name: "Federal University, Lokoja",
     city: "Lokoja",
-    code: "FU Lokoja"
+    code: "FU Lokoja",
   },
   {
     name: "Federal University, Lafia",
     city: "Lafia",
-    code: "FU Lafia"
+    code: "FU Lafia",
   },
   {
     name: "Federal University, Kashere",
     city: "Kashere",
-    code: "FU Kashere"
+    code: "FU Kashere",
   },
   {
     name: "Federal University, Dutsin-Ma",
     city: "Dutsin-Ma",
-    code: "FU Dutsin-Ma"
+    code: "FU Dutsin-Ma",
   },
   {
     name: "Federal University, Dutse",
     city: "Dutse",
-    code: "FU Dutse"
+    code: "FU Dutse",
   },
   {
     name: "Federal University of Technology, Owerri",
     city: "Owerri",
-    code: "FUT Owerri"
+    code: "FUT Owerri",
   },
   {
     name: "Federal University of Technology, Minna",
     city: "Minna",
-    code: "FUT Minna"
+    code: "FUT Minna",
   },
   {
     name: "Federal University of Petroleum Resources, Effurun",
     city: "Effurun",
-    code: "FUPRE"
+    code: "FUPRE",
   },
   {
     name: "Federal University Gashua, Yobe",
     city: "Gashua",
-    code: "FUG Yobe"
+    code: "FUG Yobe",
   },
   {
     name: "Abia State University, Uturu",
     city: "Uturu",
-    code: "ABSU Uturu"
+    code: "ABSU Uturu",
   },
   {
     name: "Adamawa State University Mubi",
     city: "Mubi",
-    code: "ADSU Mubi"
+    code: "ADSU Mubi",
   },
   {
     name: "Adekunle Ajasin University, Akungba",
     city: "Akungba",
-    code: "AAU Akungba"
+    code: "AAU Akungba",
   },
   {
     name: "Akwa Ibom State University of Technology, Uyo",
     city: "Uyo",
-    code: "ASUT Uyo"
+    code: "ASUT Uyo",
   },
   {
     name: "Ambrose Alli University, Ekpoma",
     city: "Ekpoma",
-    code: "AAU Ekpoma"
+    code: "AAU Ekpoma",
   },
   {
     name: "Chukwuemeka Odumegwu Ojukwu University, Uli",
     city: "Uli",
-    code: "COU Uli"
+    code: "COU Uli",
   },
   {
     name: "	Bauchi State University, Gadau",
     city: "Gadau",
-    code: "BSU Gadau"
+    code: "BSU Gadau",
   },
   {
     name: "Benue State University, Makurdi",
     city: "Makurdi",
-    code: "BSU Makurdi"
+    code: "BSU Makurdi",
   },
   {
     name: "Bukar Abba Ibrahim University, Damaturu",
     city: "Damaturu",
-    code: "BAIU Damaturu"
+    code: "BAIU Damaturu",
   },
   {
     name: "Cross River State University of Science & Technology, Calabar",
     city: "Calabar",
-    code: "CSUST Calabar"
+    code: "CSUST Calabar",
   },
   {
     name: "Delta State University Abraka",
     city: "Abraka",
-    code: "DELSU Abraka"
+    code: "DELSU Abraka",
   },
   {
     name: "Ebonyi State University, Abakaliki",
     city: "Abakaliki",
-    code: "ESU Abakaliki"
+    code: "ESU Abakaliki",
   },
   {
     name: "Ekiti State University",
     city: "Ekiti",
-    code: "EKSU"
+    code: "EKSU",
   },
   {
     name: "Enugu State University of Science and Technology, Enugu",
     city: "Enugu",
-    code: "ESUT Enugu"
+    code: "ESUT Enugu",
   },
   {
     name: "Gombe State Univeristy, Gombe",
     city: "Gombe",
-    code: "GOMSU"
+    code: "GOMSU",
   },
   {
     name: "Ibrahim Badamasi Babangida University, Lapai",
     city: "Lapai",
-    code: "IBBU"
+    code: "IBBU",
   },
   {
     name: "Ignatius Ajuru University of Education,Rumuolumeni",
     city: "Rumuolumeni",
-    code: "IAUE"
+    code: "IAUE",
   },
   {
     name: "Imo State University, Owerri",
     city: "Owerri",
-    code: "IMSU"
+    code: "IMSU",
   },
   {
     name: "Sule Lamido University, Kafin Hausa, Jigawa",
     city: "Jigawa",
-    code: "SLU"
+    code: "SLU",
   },
   {
     name: "Kaduna State University, Kaduna",
     city: "Kaduna",
-    code: "KASU"
+    code: "KASU",
   },
   {
     name: "Kano University of Science & Technology, Wudil",
     city: "Wudil",
-    code: "KUST"
+    code: "KUST",
   },
   {
     name: "Kebbi State University, Kebbi",
     city: "Kebbi",
-    code: "KSUSTA"
+    code: "KSUSTA",
   },
   {
     name: "Kogi State University Anyigba",
     city: "Anyigba",
-    code: "KSU"
+    code: "KSU",
   },
   {
     name: "Kwara State University, Ilorin",
     city: "Ilorin",
-    code: "KWASU"
+    code: "KWASU",
   },
   {
     name: "Ladoke Akintola University of Technology, Ogbomoso",
     city: "Ogbomoso",
-    code: "LAUTECH"
+    code: "LAUTECH",
   },
   {
     name: "Ondo State University of Science and Technology Okitipupa",
     city: "Okitipupa",
-    code: "OSUSTECH"
+    code: "OSUSTECH",
   },
   {
     name: "River State University of Science and Technology",
     city: "Rivers",
-    code: "UST"
+    code: "UST",
   },
   {
     name: "Olabisi Onabanjo University, Ago Iwoye",
     city: "Ago Iwoye",
-    code: "OOU Ago Iwoye"
+    code: "OOU Ago Iwoye",
   },
   {
     name: "Lagos State University, Ojo",
     city: "Ojo",
-    code: "LASU"
+    code: "LASU",
   },
   {
     name: "Niger Delta University Yenagoa",
     city: "Yenagoa",
-    code: "NDU Yenegoa"
+    code: "NDU Yenegoa",
   },
   {
     name: "Nasarawa State University Keffi",
     city: "Keffi",
-    code: "NSUK"
+    code: "NSUK",
   },
   {
     name: "Plateau State University Bokkos",
     city: "Bokkos",
-    code: "PLASU"
+    code: "PLASU",
   },
   {
     name: "Tai Solarin University of Education Ijebu Ode",
     city: "Ijebu Ode",
-    code: "TASUED"
+    code: "TASUED",
   },
   {
     name: "Osun State University Osogbo",
     city: "Osubgo",
-    code: "Uniosun"
+    code: "Uniosun",
   },
   {
     name: "Northwest University Kano",
     city: "KANO",
-    code: "NWU"
+    code: "NWU",
   },
   {
     name: "Oyo State Technical University Ibadan",
     city: "Oyo State Technical University Ibadan",
-    code: "OSTU Ibadab"
+    code: "OSTU Ibadab",
   },
   {
     name: "Ondo State University of Medical Sciences",
     city: "Ondo",
-    code: "OSUME"
+    code: "OSUME",
   },
   {
     name: "Edo University Iyamo",
     city: "Iyamo",
-    code: "EDU Iyamo"
+    code: "EDU Iyamo",
   },
   {
     name: "Eastern Palm University Ogboko, Imo State",
     city: "Imo",
-    code: "EPUA"
+    code: "EPUA",
   },
   {
     name: "Achievers University, Owo",
     city: "Owo",
-    code: "AU Owo"
+    code: "AU Owo",
   },
   {
     name: "Adeleke University, Ede",
     city: "Ede",
-    code: "AU Ede"
+    code: "AU Ede",
   },
   {
     name: "Afe Babalola University, Ado-Ekiti",
     city: "Ado-Ekiti",
-    code: "ABUAD Ado-Ekiti"
+    code: "ABUAD Ado-Ekiti",
   },
   {
     name: "African University of Science & Technology, Abuja",
     city: "Abuja",
-    code: "AUST Abuja"
+    code: "AUST Abuja",
   },
   {
     name: "Ajayi Crowther University, Ibadan",
     city: "Ibadan",
-    code: "ACU Ibadan"
+    code: "ACU Ibadan",
   },
   {
     name: "Al-Hikmah University, Ilorin",
     city: "Ilorin",
-    code: "Alhikmah Ilorin"
+    code: "Alhikmah Ilorin",
   },
   {
     name: "Al-Qalam University, Katsina",
     city: "Katsina",
-    code: "AUK Katsina"
+    code: "AUK Katsina",
   },
   {
     name: "American University of Nigeria, Yola",
     city: "Yola",
-    code: "AUN"
+    code: "AUN",
   },
   {
     name: "Augustine University",
     city: "Lagos",
-    code: "Augustine University"
+    code: "Augustine University",
   },
   {
     name: "Babcock University,Ilishan-Remo",
     city: "Ilishan-Remo",
-    code: "BABCOCK"
+    code: "BABCOCK",
   },
   {
     name: "Baze University",
     city: "Abuja",
-    code: "BAZE University"
+    code: "BAZE University",
   },
   {
     name: "Bells University of Technology, Otta",
     city: "Otta",
-    code: "BUT Otta"
+    code: "BUT Otta",
   },
   {
     name: "Benson Idahosa University, Benin City",
     city: "Benin City",
-    code: "Idahosa Uni"
+    code: "Idahosa Uni",
   },
   {
     name: "Bingham University, New Karu",
     city: "New Karu",
-    code: "Bingham"
+    code: "Bingham",
   },
   {
     name: "Bowen University, Iwo",
     city: "Iwo",
-    code: "BOWEN"
+    code: "BOWEN",
   },
   {
     name: "Caleb University, Lagos",
     city: "Lagos",
-    code: "Caleb Uni"
+    code: "Caleb Uni",
   },
   {
     name: "Caritas University, Enugu",
     city: "Enugu",
-    code: "Caritas"
+    code: "Caritas",
   },
   {
     name: "CETEP City University, Lagos",
     city: "Lagos",
-    code: "CETEP Uni"
+    code: "CETEP Uni",
   },
   {
     name: "Chrisland University",
     city: "Abeokuta",
-    code: "Chrisland University"
+    code: "Chrisland University",
   },
   {
     name: "Covenant University Ota",
     city: "Ota",
-    code: "Convenant"
+    code: "Convenant",
   },
   {
     name: "Crawford University Igbesa",
     city: "Igbesa",
-    code: "Crawford Uni"
+    code: "Crawford Uni",
   },
   {
     name: "Crescent University",
     city: "Abeokuta",
-    code: "Crescent Uni"
+    code: "Crescent Uni",
   },
   {
     name: "Edwin Clark University, Kaigbodo",
     city: "Kaigbodo",
-    code: "ECU Kaigbodo"
+    code: "ECU Kaigbodo",
   },
   {
     name: "Elizade University, Ilara-Mokin",
     city: "Ilara-Mokin",
-    code: "Elizade Uni"
+    code: "Elizade Uni",
   },
   {
     name: "Evangel University, Akaeze",
     city: "Akaeze",
-    code: "Evangel Uni"
+    code: "Evangel Uni",
   },
   {
     name: "Fountain Unveristy, Oshogbo",
     city: "Oshogbo",
-    code: "FU Oshogbo"
+    code: "FU Oshogbo",
   },
   {
     name: "Godfrey Okoye University, Ugwuomu-Nike",
     city: "Ugwuomu-Nike",
-    code: "GOU Ugwuomu-Nike"
+    code: "GOU Ugwuomu-Nike",
   },
   {
     name: "Gregory University, Uturu",
     city: "Uturu",
-    code: "GU Uturu"
+    code: "GU Uturu",
   },
   {
     name: "Hallmark University",
     city: "Ijebu-Itele",
-    code: "Hallmark Uni"
+    code: "Hallmark Uni",
   },
   {
     name: "Hezekiah University, Umudi",
     city: "Umudi",
-    code: "Hezekiah Uni"
+    code: "Hezekiah Uni",
   },
   {
     name: "Igbinedion University Okada",
     city: "Okada",
-    code: "Igbinedion Uni"
+    code: "Igbinedion Uni",
   },
   {
     name: "Joseph Ayo Babalola University, Ikeji-Arakeji",
     city: "Ikeji-Arakeji",
-    code: "JABU Ikeji-Arakeji"
+    code: "JABU Ikeji-Arakeji",
   },
   {
     name: "Kings University",
     city: "Odeomu",
-    code: "Kings University"
+    code: "Kings University",
   },
   {
     name: "Kwararafa University, Wukari",
     city: "Wukari",
-    code: "KU Wukari"
+    code: "KU Wukari",
   },
   {
     name: "Landmark University, Omu-Aran.",
     city: "Omu-Aran",
-    code: "Landmark Uni"
+    code: "Landmark Uni",
   },
   {
     name: "Lead City University, Ibadan",
     city: "Ibadan",
-    code: "LCU Ibadan"
+    code: "LCU Ibadan",
   },
   {
     name: "Madonna University, Okija",
     city: "Okija",
-    code: "Madonna"
+    code: "Madonna",
   },
   {
     name: "Mcpherson University, Seriki Sotayo, Ajebo",
     city: "Seriki Sotayo, Ajebo",
-    code: "MU Seriki Sotayo, Ajebo"
+    code: "MU Seriki Sotayo, Ajebo",
   },
   {
     name: "Micheal & Cecilia University",
     city: "Otor Ughelli North",
-    code: "MCU"
+    code: "MCU",
   },
   {
     name: "Mountain Top University",
     city: "Prayer City",
-    code: "MICU"
+    code: "MICU",
   },
   {
     name: "Nigerian-Turkish Nile University, Abuja",
     city: "Abuja",
-    code: "NTNU Abuja"
+    code: "NTNU Abuja",
   },
   {
     name: "Novena University, Ogume",
     city: "Ogume",
-    code: "Novena Uni"
+    code: "Novena Uni",
   },
   {
     name: "Obong University, Obong Ntak",
     city: "Obong Ntak",
-    code: "OU Obong Ntak"
+    code: "OU Obong Ntak",
   },
   {
     name: "Oduduwa University, Ipetumodu - Osun State",
     city: "Ipetumodu",
-    code: "ODU Ipetumodu"
+    code: "ODU Ipetumodu",
   },
   {
     name: "Pan-Atlantic University, Lagos",
     city: "Lagos",
-    code: "PAU Lagos"
+    code: "PAU Lagos",
   },
   {
     name: "Paul University, Awka",
     city: "Awka",
-    code: "Paul Uni"
+    code: "Paul Uni",
   },
   {
     name: "Redeemer's University, Mowe",
     city: "Mowe",
-    code: "Redeemers Uni"
+    code: "Redeemers Uni",
   },
   {
     name: "Renaissance University, Enugu",
     city: "Enugu",
-    code: "RU Enugu"
+    code: "RU Enugu",
   },
   {
     name: "Rhema University, Obeama-Asa",
     city: "Obeama-Asa",
-    code: "Rhema Uni Obeama-Asa"
+    code: "Rhema Uni Obeama-Asa",
   },
   {
     name: "Ritman University",
     city: "Ikot Ekpene",
-    code: "Ritman Uni"
+    code: "Ritman Uni",
   },
   {
     name: "Salem University, Lokoja",
     city: "Lokoja",
-    code: "Salem Uni"
+    code: "Salem Uni",
   },
   {
     name: "Samuel Adegboyega University, Ogwa",
     city: "Ogwa",
-    code: "SAU Ogwa"
+    code: "SAU Ogwa",
   },
   {
     name: "Southwestern University, Oku Owa",
     city: "Oku Owa",
-    code: "SU Oku Owa"
+    code: "SU Oku Owa",
   },
   {
     name: "Tansian University, Umunya",
     city: "Umunya",
-    code: "TU Umunya"
+    code: "TU Umunya",
   },
   {
     name: "University of Mkar, Mkar",
     city: "Mkar",
-    code: "UM Mkar"
+    code: "UM Mkar",
   },
   {
     name: "Veritas University",
     city: "Bwari",
-    code: "Veritas"
+    code: "Veritas",
   },
   {
     name: "Wellspring University, Evbuobanosa",
     city: "Evbuobanosa",
-    code: "WU Evbuobanosa"
+    code: "WU Evbuobanosa",
   },
   {
     name: "Western Delta University, Oghara",
     city: "Oghara",
-    code: "WDU Oghara"
+    code: "WDU Oghara",
   },
   {
     name: "Christopher University Mowe",
     city: "Mowe",
-    code: "CU Mowe"
+    code: "CU Mowe",
   },
   //Colleges
   {
     name: "Adeyemi College of Education, Ondo",
     city: "Ondo",
-    code: "ACE Ondo"
+    code: "ACE Ondo",
   },
   {
     name: "Alvan Ikoku College of Education, Owerri",
     city: "Owerri",
-    code: "AICE Owerri"
+    code: "AICE Owerri",
   },
   {
     name: "Federal College of Educ. Abeokuta",
     city: "Abeokuta",
-    code: "FCE Abeokuta"
+    code: "FCE Abeokuta",
   },
   {
     name: "Federal College of Education, Eha-Amufu",
     city: "Eha-Amufu",
-    code: "FCE, Eha-Amufu"
+    code: "FCE, Eha-Amufu",
   },
   {
     name: "Federal College of Education, Kano",
     city: "Kano",
-    code: "FCE Kano"
+    code: "FCE Kano",
   },
   {
     name: "Federal College of Education, Katsina",
     city: "Katsina",
-    code: "FCE Katsina"
+    code: "FCE Katsina",
   },
   {
     name: "Federal college of Education, Kontagora",
     city: "Kontagora",
-    code: "FCE Kontagora"
+    code: "FCE Kontagora",
   },
   {
     name: "Federal College of Education, Obudu",
     city: "Obudu",
-    code: "FCE Obudu"
+    code: "FCE Obudu",
   },
   {
     name: "Federal College of Education, Okene",
     city: "Okene",
-    code: "FCE Okene"
+    code: "FCE Okene",
   },
   {
     name: "Federal College of Education, Pankshin",
     city: "Pankshin",
-    code: "FCE Pankshin"
+    code: "FCE Pankshin",
   },
   {
     name: "Federal College of Education, Yola",
     city: "Yola",
-    code: "FCE Yola"
+    code: "FCE Yola",
   },
   {
     name: "Federal College of Education, Zaria",
     city: "Zaria",
-    code: "FCE Zaria"
+    code: "FCE Zaria",
   },
   {
     name: "Federal College of Education (Technical), Akoka",
     city: "Akoka",
-    code: "FCE Akoka"
+    code: "FCE Akoka",
   },
   {
     name: "Federal College of Education (Technical), Asaba",
     city: "Asaba",
-    code: "FCE Asaba"
+    code: "FCE Asaba",
   },
   {
     name: "Federal College of Education (Technical), Bichi",
     city: "Bichi",
-    code: "FCE Bichi"
+    code: "FCE Bichi",
   },
   {
     name: "Federal College of Education (Technical), Gombe",
     city: "Gombe",
-    code: "FCE Gombe"
+    code: "FCE Gombe",
   },
   {
     name: "Federal College of Education (Technical) (Female Only), Gusau",
     city: "Gusau",
-    code: "FCE Gusau"
+    code: "FCE Gusau",
   },
   {
     name: "Fed College of Education (Technical), Omoku",
     city: "Omoku",
-    code: "FCE Omoku"
+    code: "FCE Omoku",
   },
   {
     name: "Federal College of Education (Technical), Potiskum",
     city: "Potiskum",
-    code: "FCE Potiskum"
+    code: "FCE Potiskum",
   },
   {
     name: "Federal College of Education (Technical) Umunze",
     city: "Umunze",
-    code: "FCE Umunze"
+    code: "FCE Umunze",
   },
   {
     name: "Federal College of Education (Special) Oyo",
     city: "Oyo",
-    code: "FCE Oyo"
+    code: "FCE Oyo",
   },
   {
     name: "College of Education, Agbor",
     city: "Agbor",
-    code: "CE Agbor"
+    code: "CE Agbor",
   },
   {
     name: "Akwa-Ibom State College of Education, Afaha-Nsit",
     city: "Afaha-Nsit",
-    code: "ASCE Afaha-Nsit"
+    code: "ASCE Afaha-Nsit",
   },
   {
     name: "College of Education, Akwanga",
     city: "Akwanga",
-    code: "CE Akwanga"
+    code: "CE Akwanga",
   },
   {
     name: "College of Education, Ankpa",
     city: "Ankpa",
-    code: "CE Ankpa"
+    code: "CE Ankpa",
   },
   {
     name: "Adamu Augie College of Education, Argungu",
     city: "Argungu",
-    code: "AACE Argungu"
+    code: "AACE Argungu",
   },
   {
     name: "Abia State College of Education (Technical), Arochukwu",
     city: "Arochukwu",
-    code: "ABSCE Arochukwu"
+    code: "ABSCE Arochukwu",
   },
   {
     name: "College of Education, Azare",
     city: "Azare",
-    code: "CE Azare"
+    code: "CE Azare",
   },
   {
     name: "Umar-Ibn EI-Kanemi College of Education, Dutsinma",
     city: "Dutsinma",
-    code: "UECE Dutsinma"
+    code: "UECE Dutsinma",
   },
   {
     name: "Bayelsa State College of Education, Okpoama-Brass",
     city: "Okpoama-Brass",
-    code: "BSCE Okpoama-Brass"
+    code: "BSCE Okpoama-Brass",
   },
   {
     name: "Isa Kaita College of Education, Dutsinma",
     city: "Dutsinma",
-    code: "IKCE Dutsinma"
+    code: "IKCE Dutsinma",
   },
   {
     name: "Emmanuel Alyande College of Education, Oyo",
     city: "Oyo",
-    code: "EACE Oyo"
+    code: "EACE Oyo",
   },
   {
     name: "Enugu State College of Education (Tech.) Enugu",
     city: "Enugu",
-    code: "ESCE Abakaliki Rd"
+    code: "ESCE Abakaliki Rd",
   },
   {
     name: "College of Education, Ekiadolor",
     city: "Ekiadolor",
-    code: "CE Ekiadolor"
+    code: "CE Ekiadolor",
   },
   {
     name: "Umar Suleiman College of Education, Gashua",
     city: "Gashua",
-    code: "USCE Gashua"
+    code: "USCE Gashua",
   },
   {
     name: "College of Education, Gindiri",
     city: "Gindiri",
-    code: "CE Gindiri"
+    code: "CE Gindiri",
   },
   {
     name: "Jigawa State College of Education, Gumel",
     city: "Gumel",
-    code: "JSCE Gumel"
+    code: "JSCE Gumel",
   },
   {
     name: "Michael Otedola College of Primary Education, Moforiji",
     city: "Moforiji",
-    code: "MOCPE Moforiji"
+    code: "MOCPE Moforiji",
   },
   {
     name: "Delta State College of Physical Education, Mosogar",
     city: "Mosogar",
-    code: "DSCPE Mosogar"
+    code: "DSCPE Mosogar",
   },
   {
     name: "College of Education, Port Harcourt",
     city: "Port Harcourt",
-    code: "CE Port Harcourt"
+    code: "CE Port Harcourt",
   },
   {
     name: "College of Education, Hong",
     city: "Hong",
-    code: "CE Hong"
+    code: "CE Hong",
   },
   {
     name: "Adeniran Ogunsanya College of Education, Otto/Ijanikin",
     city: "Otto/Ijanikin",
-    code: "AOCE Otto/Ijanikin"
+    code: "AOCE Otto/Ijanikin",
   },
   {
     name: "Tai Solarin College of Education, Ijebu-Ode",
     city: "Ijebu-Ode",
-    code: "TSCE Ijebu-Ode"
+    code: "TSCE Ijebu-Ode",
   },
   {
     name: "Ebonyi State College of Education, Ikwo",
     city: "Ikwo",
-    code: "ESCE Ikwo"
+    code: "ESCE Ikwo",
   },
   {
     name: "College of Education, Ikere",
     city: "Ikere",
-    code: "CE Ikere"
+    code: "CE Ikere",
   },
   {
     name: "Osun State College of Education, Ila-Orangun",
     city: "Ila-Orangun",
-    code: "OSCE Ila-Orangun"
+    code: "OSCE Ila-Orangun",
   },
   {
     name: "College of Education, Ilesha",
     city: "Ilesha",
-    code: "CE Ilesha"
+    code: "CE Ilesha",
   },
   {
     name: "College of Education, Ilorin",
     city: "Ilorin",
-    code: "CE Ilorin"
+    code: "CE Ilorin",
   },
   {
     name: "College of Education, Jalingo",
     city: "Jalingo",
-    code: "CE Jalingo"
+    code: "CE Jalingo",
   },
   {
     name: "College of Education, Gidan-Waya",
     city: "Gidan-Waya",
-    code: "CE Gidan-Waya"
+    code: "CE Gidan-Waya",
   },
   {
     name: "Kano State College of Education, Kumbotso Zaria Rd",
     city: "Kumbotso Zaria Rd",
-    code: "KSCE Kumbotso Zaria Rd"
+    code: "KSCE Kumbotso Zaria Rd",
   },
   {
     name: "College of Education, Katsina-Ala",
     city: "Katsina-Ala",
-    code: "CE Katsina-Ala"
+    code: "CE Katsina-Ala",
   },
   {
     name: "Kebbi State College of Education, Argungu",
     city: "Argungu",
-    code: "KSCE Argungu"
+    code: "KSCE Argungu",
   },
   {
     name: "College of Education, (Tech), Lafiagi",
     city: "Lafiagi",
-    code: "CE Lafiagi"
+    code: "CE Lafiagi",
   },
   {
     name: "Kashim-Ibrahim College of Educ., Maiduguri",
     city: "Maiduguri",
-    code: "KIC Maiduguri"
+    code: "KIC Maiduguri",
   },
   {
     name: "College of Education, Minna",
     city: "Minna",
-    code: "CE Minna"
+    code: "CE Minna",
   },
   {
     name: "Mohammed Goni of Legal and Islamic Studies, Maiduguri",
     city: "Maiduguri",
-    code: "MGLIS Maiduguri"
+    code: "MGLIS Maiduguri",
   },
   {
     name: "Nwafor Orizu College of Education, Nsugbe",
     city: "Nsugbe",
-    code: "NOCE Nsugbe"
+    code: "NOCE Nsugbe",
   },
   {
     name: "College of Education, Maru",
     city: "Maru",
-    code: "CE Maru"
+    code: "CE Maru",
   },
   {
     name: "College of Education, Oju",
     city: "Oju",
-    code: "CE Oju"
+    code: "CE Oju",
   },
   {
     name: "College of Education, Oro",
     city: "Oro",
-    code: "CE Oro"
+    code: "CE Oro",
   },
   {
     name: "Oyo State College of Education, Oyo",
     city: "Oyo",
-    code: "OSCE Oyo"
+    code: "OSCE Oyo",
   },
   {
     name: "Shehu Shagari College of Education, Sokoto",
     city: "Sokoto",
-    code: "SSCE Sokoto"
+    code: "SSCE Sokoto",
   },
   {
     name: "College of Education, Waka-Biu",
     city: "Waka-Biu",
-    code: "CE Waka-Biu"
+    code: "CE Waka-Biu",
   },
   {
     name: "College of Education, Warri",
     city: "Warri",
-    code: "CE Warri"
+    code: "CE Warri",
   },
   {
     name: "FCT College of Education",
     city: "Zuba",
-    code: "FCTCE Zuba"
+    code: "FCTCE Zuba",
   },
   {
     name: "All states College of Education, Ero Community Junction Akure",
     city: "Akure",
-    code: "ASCE Akure"
+    code: "ASCE Akure",
   },
   {
     name: "Angel Crown College of Education, Gidan-Daya",
     city: "Gidan-Daya",
-    code: "ACCE Gidan-Daya"
+    code: "ACCE Gidan-Daya",
   },
   {
     name: "Ansar-Ud-Deen College of Education, Oshodi",
     city: "Oshodi",
-    code: "ACE Oshodi"
+    code: "ACE Oshodi",
   },
   {
     name: "Elder Oyama Memorial College of Education, Obubra",
     city: "Obubra",
-    code: "EOMCE Obubra"
+    code: "EOMCE Obubra",
   },
   {
     name: "Assanusiyah College of Education, Odeomu",
     city: "Odeomu",
-    code: "ACE Odeomu"
+    code: "ACE Odeomu",
   },
   {
     name: "Apa College of Education, Aido Godo-Okpoga",
     city: "Aido Godo-Okpoga",
-    code: "ACE Aido Godo-Okpoga"
+    code: "ACE Aido Godo-Okpoga",
   },
   {
     name: "African Thinkers Community of inquiry College of Education, Enugu",
     city: "Enugu",
-    code: "ATCCE Enugu"
+    code: "ATCCE Enugu",
   },
   {
     name: "Awori District College of Education, Bankole Estate Ijako-Ota",
     city: "Bankole Estate Ijako-Ota",
-    code: "ADCE Bankole Estate Ijako-Ota"
+    code: "ADCE Bankole Estate Ijako-Ota",
   },
   {
     name: "Best Legacy College of Education, Ogbomoso",
     city: "Ogbomoso",
-    code: "BLCE Ogbomoso"
+    code: "BLCE Ogbomoso",
   },
   {
     name: "Bauchi Institute for Arabic and Islamic Studies, Bauchi",
     city: "Bauchi",
-    code: "BIAIS Bauchi"
+    code: "BIAIS Bauchi",
   },
   {
     name: "Calvin Foundation College of Education, Naka",
     city: "Naka",
-    code: "CFCE Naka"
+    code: "CFCE Naka",
   },
   {
     name: "The College of Education, Nsukka",
     city: "Nsukka",
-    code: "CE Nsukka"
+    code: "CE Nsukka",
   },
   {
     name: "College of Education, Irra Rd. Ilemona",
     city: "Ilemona",
-    code: "CE Ilemona"
+    code: "CE Ilemona",
   },
   {
     name: "Cornerstone College of Education, Ikeja",
     city: "Ikeja",
-    code: "CCE Ikeja"
+    code: "CCE Ikeja",
   },
   {
     name: "City College of Education, Maraba Gurku",
     city: "Maraba Gurku",
-    code: "CCE Maraba Gurku"
+    code: "CCE Maraba Gurku",
   },
   {
     name: "Delar College of Education, Egbeda",
     city: "Egbeda",
-    code: "DCE Egbeda"
+    code: "DCE Egbeda",
   },
   {
     name: "Harvard Wilson College of Education, Aba",
     city: "Aba",
-    code: "HWCE Aba"
+    code: "HWCE Aba",
   },
   {
     name: "Hill College of Education, Gwanji, Akwanga",
     city: "Akwanga",
-    code: "HCEGA Akwanga"
+    code: "HCEGA Akwanga",
   },
   {
     name: "Institute of Ecumenical Education, Enugu",
     city: "Enugu",
-    code: "IEE Enugu"
+    code: "IEE Enugu",
   },
   {
     name: "Jama’Atu Nasir Islam College of Education, Kaduna",
     city: "Kaduna",
-    code: "JNICE Kaduna"
+    code: "JNICE Kaduna",
   },
   {
     name: "Jibwis College of Arabic and Islamic Education, Gombe",
     city: "Gombe",
-    code: "JCAIE Gombe"
+    code: "JCAIE Gombe",
   },
   {
     name: "College of Education, Foreign Links Campus Moro, Ife, North",
     city: "Ife, North",
-    code: "CEFL Ife, North"
+    code: "CEFL Ife, North",
   },
   {
     name: "College of Education, Moro-Ife",
     city: "Moro-Ife",
-    code: "CE Moro-Ife"
+    code: "CE Moro-Ife",
   },
   {
     name: "Muhyideen College of Education, Ilorin",
     city: "Ilorin",
-    code: "MCE Ilorin"
+    code: "MCE Ilorin",
   },
   {
     name: "Mufutau’ Lanihun College of Education, Oremeji",
     city: "Oremeji",
-    code: "MLCE Oremeji"
+    code: "MLCE Oremeji",
   },
   {
     name: "Nana Aishat Memorial College of Education, Ilorin",
     city: "Ilorin",
-    code: "NAMCE Ilorin"
+    code: "NAMCE Ilorin",
   },
   {
     name: "Institute of Arabic and Islamic Studies, Olodo Ibadan",
     city: "Olodo Ibadan",
-    code: "IAIS Olodo Ibadan"
+    code: "IAIS Olodo Ibadan",
   },
   {
     name: "ONIT College of Education, Abagana",
     city: "Abagana",
-    code: "ONITCE Abagana"
+    code: "ONITCE Abagana",
   },
   {
     name: "Our Saviour Inst. Of Sci. & Tech. College of Education, Enugu",
     city: "Enugu",
-    code: "OSISTCE Enugu"
+    code: "OSISTCE Enugu",
   },
   {
     name: "The African Church College of Education, Adewale Adegun Avenue",
     city: "Adewale Adegun Avenue",
-    code: "TACCE Adewale Adegun Avenue"
+    code: "TACCE Adewale Adegun Avenue",
   },
   {
     name: "St. Augustine College of Education (Project Time), Yaba",
     city: "Yaba",
-    code: "SACE Yaba"
+    code: "SACE Yaba",
   },
   {
     name: "Topmost College of Education, Ipaja",
     city: "Ipaja",
-    code: "TCEI Ipaja"
+    code: "TCEI Ipaja",
   },
   {
     name: "Yewa Central College of Education, Adehun Abeokuta",
     city: "Adehun Abeokuta",
-    code: "YCCE Adehun Abeokuta"
+    code: "YCCE Adehun Abeokuta",
   },
   {
     name: "Yusuf Bala Usman College of Legal and General Studies, Daura",
     city: "Daura",
-    code: "YBUCLGS Daura"
+    code: "YBUCLGS Daura",
   },
   {
     name: "Kinsey College Of Education, Ilorin South",
     city: "Ilorin South",
-    code: "KCE Ilorin South"
+    code: "KCE Ilorin South",
   },
   //Polytechnics
   {
     name: "Akanu Ibiam Federal Polytechnic, Unwana-Afikpo",
     city: "Unwana-Afikpo",
-    code: "AIFP Unwana-Afikpo"
+    code: "AIFP Unwana-Afikpo",
   },
   {
     name: "Auchi Polytechnic, Auchi",
     city: "Auchi",
-    code: "APA Auchi"
+    code: "APA Auchi",
   },
   {
     name: "Federal Polytechnic, Ekiti",
     city: "Ekiti",
-    code: "FP Ekiti"
+    code: "FP Ekiti",
   },
   {
     name: "Federal Polytechnic, Bauchi",
     city: "Bauchi",
-    code: "FP Bauchi"
+    code: "FP Bauchi",
   },
   {
     name: "Federal Polytechnic, Bida",
     city: "Bida",
-    code: "FP Bida"
+    code: "FP Bida",
   },
   {
     name: "Federal Polytechnic, Damaturu",
     city: "Damaturu",
-    code: "FP Damaturu"
+    code: "FP Damaturu",
   },
   {
     name: "Federal Polytechnic, Ede",
     city: "Ede",
-    code: "FP Ede"
+    code: "FP Ede",
   },
   {
     name: "Federal Polytechnic, Idah",
     city: "Idah",
-    code: "FP Idah"
+    code: "FP Idah",
   },
   {
     name: "Federal Polytechnic, Ilaro",
     city: "Ilaro",
-    code: "FP Ilaro"
+    code: "FP Ilaro",
   },
   {
     name: "Federal Polytechnic, Ile-Oluji",
     city: "Ile-Oluji",
-    code: "FP Ile-Oluji"
+    code: "FP Ile-Oluji",
   },
   {
     name: "Federal Polytechnic, Kaura Namoda",
     city: "Kaura Namoda",
-    code: "FP Kaura Namoda"
+    code: "FP Kaura Namoda",
   },
   {
     name: "Federal Polytechnic, Mubi",
     city: "Mubi",
-    code: "FP Mubi"
+    code: "FP Mubi",
   },
   {
     name: "Federal Polytechnic, Namoda",
     city: "Namoda",
-    code: "FP Namoda"
+    code: "FP Namoda",
   },
   {
     name: "Federal Polytechnic, Nassarawa",
     city: "Nassarawa",
-    code: "FP Nassarawa"
+    code: "FP Nassarawa",
   },
   {
     name: "Federal Polytechnic, Nekede",
     city: "Nekede",
-    code: "FP Nekede"
+    code: "FP Nekede",
   },
   {
     name: "Federal Polytechnic, Offa",
     city: "Offa",
-    code: "FP Offa"
+    code: "FP Offa",
   },
   {
     name: "Federal Polytechnic, Oko",
     city: "Oko",
-    code: "FP Oko"
+    code: "FP Oko",
   },
   {
     name: "Hussaini Adamu Federal Polytechnic, Kazaure",
     city: "Kazaure",
-    code: "HAFP Kazaure"
+    code: "HAFP Kazaure",
   },
   {
     name: "Kaduna Polytechnic, Kaduna",
     city: "Kaduna",
-    code: "KP Kaduna"
+    code: "KP Kaduna",
   },
   {
     name: "Waziri Umaru Federal Polytechnic, Birnin Kebbi",
     city: "Birnin Kebbi",
-    code: "WUFP Birnin Kebbi"
+    code: "WUFP Birnin Kebbi",
   },
   {
     name: "Yaba College of Technology, Yaba",
     city: "Yaba",
-    code: "YCT Yaba"
+    code: "YCT Yaba",
   },
   {
     name: "Federal Polytechnic, Bali",
     city: "Bali",
-    code: "FP Bali"
+    code: "FP Bali",
   },
   {
     name: "Federal Polytechnic, Ekowe",
     city: "Ekowe",
-    code: "FP Ekowe"
+    code: "FP Ekowe",
   },
   {
     name: "Federal School of Dental Technology and Therapy, Enugu",
     city: "Enugu",
-    code: "FSDTT Enugu"
+    code: "FSDTT Enugu",
   },
   {
     name: "Nigeria Army School of Military Engineering, Makurdi",
     city: "Makurdi",
-    code: "NASME Makurdi"
+    code: "NASME Makurdi",
   },
   {
-    name:
-      "Federal College of Animal Health and Production Technology, Moor Plantation",
+    name: "Federal College of Animal Health and Production Technology, Moor Plantation",
     city: "Moor Plantation",
-    code: "FCAHPT Moor Plantation"
+    code: "FCAHPT Moor Plantation",
   },
   {
     name: "Air Force Institute of Technology Nigerian Air Force, Kaduna",
     city: "Kaduna",
-    code: "AFITAF Kaduna"
+    code: "AFITAF Kaduna",
   },
   {
     name: "Abdu Gusau Polytechnic, Talata-Mafara",
     city: "Talata-Mafara",
-    code: "AGPT Talata-Mafara"
+    code: "AGPT Talata-Mafara",
   },
   {
     name: "Abia State Polytechnic, Aba",
     city: "Aba",
-    code: "ASP Aba"
+    code: "ASP Aba",
   },
   {
     name: "Abubakar Tatari Ali Polytechnic, Bauchi",
     city: "Bauchi",
-    code: "ATAP Bauchi"
+    code: "ATAP Bauchi",
   },
   {
     name: "Adamawa State Polytechnic, Yola",
     city: "Yola",
-    code: "ASP Yola"
+    code: "ASP Yola",
   },
   {
     name: "Akwa-Ibom State College of Art and Science, Numkum",
     city: "Numkum",
-    code: "ASCAS Numkum"
+    code: "ASCAS Numkum",
   },
   {
     name: "Akwa-Ibom State Polytechnic, Ikot-Osurua",
     city: "Ikot-Osurua",
-    code: "ASP Ikot-Osurua"
+    code: "ASP Ikot-Osurua",
   },
   {
     name: "Benue State Polytechnic, Ugbokolo",
     city: "Ugbokolo",
-    code: "BSP Ugbokolo"
+    code: "BSP Ugbokolo",
   },
   {
     name: "College of Administrative and Business Studies, Potiskum",
     city: "Potiskum",
-    code: "CABS Potiskum"
+    code: "CABS Potiskum",
   },
   {
     name: "Delta State Polytechnic, tefe Ogharra",
     city: "tefe Ogharra",
-    code: "DSP tefe Ogharra"
+    code: "DSP tefe Ogharra",
   },
   {
     name: "Delta State Polytechnic, Ozoro",
     city: "Ozoro",
-    code: "DSP Ozoro"
+    code: "DSP Ozoro",
   },
   {
     name: "Delta State Polytechnic, Ugwashi-Uku",
     city: "Ugwashi-Uku",
-    code: "DSP Ugwashi-Uku"
+    code: "DSP Ugwashi-Uku",
   },
   {
     name: "Edo State Institute of Management and Technology, Usen",
     city: "Benin City",
-    code: "EDIMT Benin City"
+    code: "EDIMT Benin City",
   },
   {
     name: "Enugu Polytechnic, ",
     city: "Ani-Iri",
-    code: "EP Ani-Iri"
+    code: "EP Ani-Iri",
   },
   {
     name: "Gateway ICT Institute, Itori",
     city: "Ewekoro",
-    code: "GICTI Ewekoro"
+    code: "GICTI Ewekoro",
   },
   {
     name: "Gateway ICT Polytechnic, Igbesa",
     city: "Igbesa",
-    code: "GICTP Igbesa"
+    code: "GICTP Igbesa",
   },
   {
     name: "Gateway ICT Polytechnic, Saapade",
     city: "Saapade",
-    code: "GICTP Saapade"
+    code: "GICTP Saapade",
   },
   {
     name: "Hassan Usman Katsina Polytechnic, Katsina",
     city: "Katsina",
-    code: "HUP Katsina"
+    code: "HUP Katsina",
   },
   {
     name: "Imo State Polytechnic, Umuagwo",
     city: "Owerri",
-    code: "ISP Owerri"
+    code: "ISP Owerri",
   },
   {
     name: "Institute of Management. & Technology, Enugu",
     city: "Enugu",
-    code: "IMT Enugu"
+    code: "IMT Enugu",
   },
   {
     name: "Jigawa State Polytechnic, Dutse",
     city: "Dutse",
-    code: "JSP Dutse"
+    code: "JSP Dutse",
   },
   {
     name: "Kano State Polytechnic, Kano",
     city: "Kano",
-    code: "KSP Kano"
+    code: "KSP Kano",
   },
   {
     name: "Kogi State Polytechnic, Lokoja",
     city: "Lokoja",
-    code: "KSP Lokoja"
+    code: "KSP Lokoja",
   },
   {
     name: "Kwara State Polytechnic, Ilorin",
     city: "Ilorin",
-    code: "KSP Ilorin"
+    code: "KSP Ilorin",
   },
   {
     name: "Lagos State Polytechnic, Ikorodu",
     city: "Ikorodu",
-    code: "LSP Ikorodu"
+    code: "LSP Ikorodu",
   },
   {
     name: "Moshood Abiola Polytechnic, Abeokuta",
     city: "Abeokuta",
-    code: "MAP Abeokuta"
+    code: "MAP Abeokuta",
   },
   {
     name: "Nasarawa State Polytechnic, Lafia",
     city: "Lafia",
-    code: "NSP Lafia"
+    code: "NSP Lafia",
   },
   {
     name: "Niger State Polytechnic, Zungeru",
     city: "Zungeru",
-    code: "NSP Zungeru"
+    code: "NSP Zungeru",
   },
   {
     name: "Nuhu Bamalli Polytechnic, Zaria",
     city: "Zaria",
-    code: "NUBA Zaria"
+    code: "NUBA Zaria",
   },
   {
     name: "Osun State College of Technology, Esa-Oke",
     city: "Esa-Oke",
-    code: "OSCT Esa-Oke"
+    code: "OSCT Esa-Oke",
   },
   {
     name: "Osun State Polytechnic, Iree",
     city: "Iree",
-    code: "OSP Iree"
+    code: "OSP Iree",
   },
   {
     name: "Plateau State Polytechnic, Barkin Ladi",
     city: "Barkin Ladi",
-    code: "PSP Barkin Ladi"
+    code: "PSP Barkin Ladi",
   },
   {
     name: "Ramat Polytechnic, Maiduguri",
     city: "Maiduguri",
-    code: "RP Maiduguri"
+    code: "RP Maiduguri",
   },
   {
     name: "Rivers State Polytechnic, Bori",
     city: "Bori",
-    code: "RSP Bori"
+    code: "RSP Bori",
   },
   {
     name: "Rivers State College of Arts and Science, Rumola",
     city: "Rumola",
-    code: "RSCAS Rumola"
+    code: "RSCAS Rumola",
   },
   {
     name: "Rufus Giwa Polytechnic, Owo",
     city: "Owo",
-    code: "RGP Owo"
+    code: "RGP Owo",
   },
   {
     name: "Sokoto State Polytechnic, Sokoto",
     city: "Sokoto",
-    code: "SSP Sokoto"
+    code: "SSP Sokoto",
   },
   {
     name: "Taraba State Polytechnic, Jalingo",
     city: "Jalingo",
-    code: "TSP Jalingo"
+    code: "TSP Jalingo",
   },
   {
     name: "The Polytechnic, Ibadan",
     city: "Ibadan",
-    code: "TP Ibadan"
+    code: "TP Ibadan",
   },
   {
     name: "Yobe State Polytechnic, Geidam",
     city: "Geidam",
-    code: "YSPG Geidam"
+    code: "YSPG Geidam",
   },
   {
     name: "Allover Central Polytechnic, Sango-Ota",
     city: "Sango-Ota",
-    code: "ACP Sango-Ota"
+    code: "ACP Sango-Ota",
   },
   {
     name: "Covenant Polytechnic, Aba",
     city: "Aba",
-    code: "CP Aba"
+    code: "CP Aba",
   },
   {
     name: "Crown Polytechnic, Odo Ado-Ekiti",
     city: "Odo Ado-Ekiti",
-    code: "CP Odo Ado-Ekiti"
+    code: "CP Odo Ado-Ekiti",
   },
   {
     name: "Dorben Polytechnic, Bwari",
     city: "Bwari",
-    code: "DP Bwari"
+    code: "DP Bwari",
   },
   {
     name: "Fidei Polytechnic, Gboko",
     city: "Gboko",
-    code: "FP Gboko"
+    code: "FP Gboko",
   },
   {
     name: "Grace Polytechnic, Surulere",
     city: "Surulere",
-    code: "Gp Surulere"
+    code: "Gp Surulere",
   },
   {
     name: "Heritage Polytechnic, Eket",
     city: "Eket",
-    code: "HP Eket"
+    code: "HP Eket",
   },
   {
     name: "Ibadan City Polytechnic, Dugbe",
     city: "Dugbe",
-    code: "ICP Dugbe"
+    code: "ICP Dugbe",
   },
   {
     name: "Igbajo Polytechnic, Igbajo",
     city: "Igbajo",
-    code: "IP Igbajo"
+    code: "IP Igbajo",
   },
   {
     name: "Interlink Polytechnic,  IJebu-Jesa",
     city: " IJebu-Jesa",
-    code: "IP IJebu-Jesa"
+    code: "IP IJebu-Jesa",
   },
   {
     name: "Kings Polytechnic, Ubiaja",
     city: "Ubiaja",
-    code: "KP Ubiaja"
+    code: "KP Ubiaja",
   },
   {
     name: "Lagos City Polytechnic, Ikeja",
     city: "Ikeja",
-    code: "LCP Ikeja"
+    code: "LCP Ikeja",
   },
   {
     name: "Lighthouse Polytechnic, Evbuobanosa",
     city: "Evbuobanosa",
-    code: "LP Evbuobanosa"
+    code: "LP Evbuobanosa",
   },
   {
     name: "Nacabs Polytechnic, Akwanga",
     city: "Akwanga",
-    code: "NP Akwanga"
+    code: "NP Akwanga",
   },
   {
     name: "Nogak Polytechnic, Ikom",
     city: "Ikom",
-    code: "NP Ikom"
+    code: "NP Ikom",
   },
   {
-    name:
-      "Our Saviour Institute of Science Agric and Technology (OSISATECH), Enugu",
+    name: "Our Saviour Institute of Science Agric and Technology (OSISATECH), Enugu",
     city: "Enugu",
-    code: "OSISAT Enugu"
+    code: "OSISAT Enugu",
   },
   {
     name: "Prime Polytechnic, Ajaokuta",
     city: "Ajaokuta",
-    code: "PP Ajaokuta"
+    code: "PP Ajaokuta",
   },
   {
     name: "Ronik Polytechnic, Ejigbo",
     city: "Ejigbo",
-    code: "RP Ejigbo"
+    code: "RP Ejigbo",
   },
   {
     name: "Shaka Polytechnic Benin City",
     city: "Benin City",
-    code: "SP Benin City"
+    code: "SP Benin City",
   },
   {
     name: "Temple-Gate Polytechnic, Aba",
     city: "Aba",
-    code: "TGP Aba"
+    code: "TGP Aba",
   },
   {
     name: "The Polytechnic, Ile-Ife",
     city: "Ile-Ife",
-    code: "TP Ile-Ife"
+    code: "TP Ile-Ife",
   },
   {
     name: "The Polytechnic Imesi-Ile",
     city: "Imesi-Ile",
-    code: "TP"
+    code: "TP",
   },
   {
     name: "Tower Polytechnic Ibadan",
     city: "Ibadan",
-    code: "TP Ibadan"
+    code: "TP Ibadan",
   },
   {
     name: "Wolex Polytechnic, Ikeja",
     city: "Ikeja",
-    code: "WP Ikeja"
+    code: "WP Ikeja",
   },
   {
     name: "D.S. ADEGBENRO ICT Polytechnics, Abeokuta",
     city: "Abeokuta",
-    code: "Ifo"
+    code: "Ifo",
   },
   {
     name: "Nigerian Institute of Journalism, (NIJ), Ogba Estate, Ikeja",
     city: "Ogba Estate, Ikeja",
-    code: "NIJ Ogba Estate"
-  }
+    code: "NIJ Ogba Estate",
+  },
 ];
 
 const courses = [
-"ACCOUNTING",
-"ACCOUNTING TECHNOLOGY",
-"ACTUARIAL SCIENCE",
-"ADULT AND COMMUNITY EDUCATION",
-"ADULT AND CONTINOUS EDUCATION",
-"ADULT AND NON-FORMAL EDUCATION",
-"ADULT EDUCATION",
-"ADULT EDUCATION / POLITICAL SCIENCE AND PUBLIC ADMINISTRATION",
-"ADULT EDUCATION/ECONOMICS AND STATISTICS",
-"ADULT EDUCATION/ENGLISH LITERATURE",
-"ADULT EDUCATION/GEOGRAPHY AND REGIONAL PLANNING",
-"AERONAUTIC AND ASTRONAUTIC ENGINEERING",
-"AEROSPACE ENGINEERING",
-"AFRICAN AND ASIAN STUDIES",
-"AGRIC BUSINESS",
-"AGRIC COOPERATIVE MANAGEMENT",
-"AGRIC EXTENSION AND RURAL DEVELOPMENT",
-"AGRIC EXTENSION SERVICE",
-"AGRIC-ECONOMICS AND EXTENSION",
-"AGRIC-EXTENSION AND RURAL SOCIOLOGY",
-"AGRICULTURAL AND ENVIRONMENTAL ENGINEERING",
-"AGRICULTURAL ADMINISTRATION",
-"AGRICULTURAL AND BIORESOURCES ENGINEERING",
-"AGRICULTURAL AND BIOSYSTEMS ENGINEERING",
-"AGRICULTURAL ECONOMICS",
-"AGRICULTURAL ECONOMICS & FARM MANAGEMENT",
-"AGRICULTURAL ENGINEERING",
-"AGRICULTURAL EXTENSION AND COMMUNICATION TECHNOLOGY",
-"AGRICULTURAL EXTENSION AND MANAGEMENT",
-"AGRICULTURAL PRODUCATION AND MANAGEMENT SCIENCE AND EDUCATION",
-"AGRICULTURAL SCIENCE AND EDUCATION",
-"AGRICULTURAL TECHNOLOGY AND EDUCATION",
-"AGRICULTURE",
-"AGRICULTURE AND RESOURCE ECONOMICS",
-"AGRONOMY",
-"ANATOMY",
-"ANIMAL PHYSIOLOGY",
-"ANIMAL AND ENVIRONMENTAL BIOLOGY",
-"ANIMAL BIOLOGY AND ENVIRONMENT",
-"ANIMAL BREEDING AND GENETICS",
-"ANIMAL NUTRITION",
-"ANIMAL NUTRITION AND BIOTECHNOLOGY",
-"ANIMAL PRODUCTION",
-"ANIMAL PRODUCTION AND FISHERIES",
-"ANIMAL PRODUCTION AND HEALTH",
-"ANIMAL PRODUCTION AND HEALTH SERVICES",
-"ANIMAL SCIENCE",
-"ANIMAL SCIENCE AND FISHERIES",
-"ANIMAL SCIENCE AND FISHERIES MANAGEMENT",
-"ANIMAL SCIENCE AND RANGE MANAGEMENT",
-"ANIMAL SCIENCE AND TECHNOLOGY",
-"ANTHROPOLOGY",
-"ANTHROPOLOGY BIOLOGICAL",
-"APPLIED MATHEMATICS WITH STATISTICS",
-"APPLIED GEOLOGY",
-"APPLIED BIOCHEMISTRY",
-"APPLIED BIOLOGY",
-"APPLIED BIOLOGY AND GENETICS",
-"APPLIED BOLOGY AND BIOTECHNOLOGY",
-"APPLIED BOTANY",
-"APPLIED CHEMISTRY",
-"APPLIED ECOLOGY",
-"APPLIED GEOPHYSICS",
-"APPLIED MICROBIOLOGY",
-"APPLIED MICROBIOLOGY AND BREWING",
-"APPLIED PHYSICS",
-"APPLIED ZOOLOGY",
-"AQUACULTURE AND FISHERIES MANAGEMENT",
-"ARABIC AND ISLAMIC STUDIES",
-"ARABIC LANGUAGE",
-"ARABIC LANGUAGE AND LITERATURE",
-"ARABIC STUDIES",
-"ARCHAEOLOGY",
-"ARCHAEOLOGY SINGLE HONOUR",
-"ARCHITECTURE",
-"ARTS COMBINED HONOURS",
-"AUTO AND MECHANICAL TECHNOLOGY EDUCATION",
-"AUTOMOBILE ENGINEERING",
-"AUTOMOBILE TECHNOLOGY EDUCATION",
-"AUTOMOTIVE ENGINEERING",
-"BA SINGLE AND COMBINED HONS IN MODERN LANGUAGES",
-"BANKING AND FINANCE",
-"BIOCHEMISTRY",
-"BIOCHEMISTRY AND MOLECULAR BIOLOGY",
-"BIOINFORMATICS",
-"BIOLOGICAL SCIENCES",
-"BIOLOGY",
-"BIOMEDICAL ENGINEERING",
-"BIOMEDICAL TECHNOLOGY",
-"BIOTECHNOLOGY",
-"BOTANY",
-"BOTANY AND ECOLOGICAL STUDIES",
-"BUILDING",
-"BUILDING AND WOODWORK TECHNOLOGY EDUCATION",
-"BUILDING EDUCATION",
-"BUILDING TECHNOLOGY",
-"BUILDING TECHNOLOGY EDUCATION",
-"BUSINESS ADMINISTRATION",
-"BUSINESS AND ENTREPRENEURSHIP STUDIES",
-"BUSINESS EDUCATION",
-"BUSINESS MANAGEMENT",
-"BUSINESS MANAGEMENT/ MANAGEMENT SCIENCE",
-"CELL BIOLOGY & GENETICS",
-"CHEMICAL SCIENCES",
-"CHEMICAL AND POLYMER ENGINEERING",
-"CHEMICAL ENGINEERING",
-"CHEMICAL/PETROCHEMICAL ENGINEERING",
-"CHEMISTRY",
-"CHEMISTRY AND INDUSTRIAL CHEMISTRY",
-"CHINESE STUDIES",
-"CHRISTAIN THEOLOGY",
-"CHRISTIAN RELIGIOUS STUDIES",
-"CHRISTIAN STUDIES",
-"CIVIL ENGINEERING",
-"CIVIL LAW",
-"CLASSICAL STUDIES",
-"COMMON AND ISLAMIC LAW",
-"COMMON LAW",
-"COMMUNICATION TECHNOLOGY",
-"COMMUNICATION AND WIRELESS TECHNOLOGY",
-"COMMUNICATION AND LANGUAGE ARTS EEDUCATION",
-"COMMUNICATION AND LANGUAGE ARTS",
-"COMMUNICATION ARTS",
-"COMMUNICATION STUDIES",
-"COMMUNICATIONS TECHNOLOGY",
-"COMPARATIVE RELIGIOUS STUDIES",
-"COMPUTER INFORMATION AND COMMUNICATION SCIENCE",
-"COMPUTER SCIENCE AND INFORMATICS",
-"COMPUTER SCIENCE AND INFORMATION SCIENCE",
-"COMPUTER WITH STATISTICS",
-"COMPUTER WITH ELECTRONICS",
-"COMPUTER AND COMMUNICATION ENGINEERING",
-"COMPUTER EDUCATION",
-"COMPUTER ENGINEERING",
-"COMPUTER SCIENCE",
-"COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
-"COMPUTER SCIENCE AND MATHEMATICS",
-"COMPUTER SCIENCE WITH ECONOMICS",
-"COMPUTER SCIENCE WITH ECONOMICS MATHEMATICS",
-"COMPUTER SCIENCE WITH MATHEMATICS",
-"CONFLICT AND PEACE RESOLUTION",
-"CONSERVATION BIOLOGY",
-"CONSTRUCTION TECHNOLOGY EDUCATION",
-"COOPERATIVE AND RURAL DEVELOPMENT",
-"COOPERATIVE ECONOMICS AND MANAGEMENT",
-"COOPERATIVE MANAGEMENT",
-"COUNSELLOR EDUCATION",
-"CREATIVE AND VISUAL ARTS",
-"CREATIVE ARTS",
-"CRIMINOLOGY",
-"CRIMINOLOGY AND PENOLOGY",
-"CRIMINOLOGY AND SECURITY STUDIES",
-"CROP PRODUCTION",
-"CROP AND ENVIRONMENTAL PROTECTION",
-"CROP PRODUCTION AND HORTICULTURE",
-"CROP PRODUCTION AND LANDSCAPE MANAGEMENT",
-"CROP PRODUCTION AND PROTECTION",
-"CROP PRODUCTION AND SOIL SCIENCE",
-"CROP PRODUCTION TECHNOLOGY",
-"CROP PROTECTION",
-"CROP SCIENCE",
-"CROP SCIENCE AND BIOTECHNOLOGY",
-"CROP SCIENCE AND HORTICULTURE",
-"CROP SCIENCE AND PRODUCTION",
-"CROP SCIENCE AND TECHNOLOGY",
-"CROP SOIL AND ENVIRONMENTAL SCIENCE",
-"CROP SOIL AND PEST MANAGEMENT",
-"CURRICULUM AND INSTRUCTION",
-"CURRICULUM STUDIES",
-"CYBER SECURITY",
-"CYBER SECURITY SCIENCE",
-"DATA MANAGEMENT",
-"DEMOGRAPHY AND SOCIAL STATISTICS",
-"DEMOGRAPHY AND STATISTICS",
-"DENTAL TECHNOLOGY",
-"DENTISTRY AND DENTAL SURGERY",
-"DRAMA/DRAMATIC/PERFORMING ARTS",
-"EARLY CHILDHOOD AND PRIMARY EDUCATION",
-"EARLY CHILDHOOD EDUCATION",
-"EARTH SCIENCE",
-"ECOLOGY",
-"ECOLOGY AND ENVIRONMENTAL STUDIES",
-"ECONOMICS",
-"ECONOMICS /GEOGRAPHY/PHYSICS",
-"ECONOMICS AND DEVELOPMENT STUDIES",
-"ECONOMICS AND STATISTICS",
-"ECONOMICS WITH OPERATION RESEARCH",
-"ECOTOURISM & WILDLIFE MANAGEMENT",
-"EDUCATION / LANGUAGE /ENGLISH",
-"EDUCATION /CONSTRUCTION TECHNOLOGY",
-"EDUCATION /MECHANICAL TECHNOLOGY",
-"EDUCATION ACCOUNTING",
-"EDUCATION AND ACCOUNTANCY",
-"EDUCATION AND ARABIC",
-"EDUCATION AND BIOLOGY",
-"EDUCATION AND BUSINESS ADMINISTRATION",
-"EDUCATION AND CHEMISTRY",
-"EDUCATION AND CHRISTIAN RELIGIOUS STUDIES",
-"EDUCATION AND COMPUTER SCIENCE",
-"EDUCATION AND ECONOMICS",
-"EDUCATION AND EDO LANGUAGE",
-"EDUCATION AND EFIK/IBIBIO",
-"EDUCATION AND ENGLISH AND LITERARY STUDIES",
-"EDUCATION AND ENGLISH LANGUAGE",
-"EDUCATION AND ENGLISH LANGUAGE AND LITERATURE",
-"EDUCATION AND FRENCH",
-"EDUCATION AND GEOGRAPHY",
-"EDUCATION AND GOVERNMENT",
-"EDUCATION AND HAUSA",
-"EDUCATION AND HISTORY",
-"EDUCATION AND IGBO",
-"EDUCATION AND INTEGRATED SCIENCE",
-"EDUCATION AND ISLAMIC STUDIES",
-"EDUCATION AND LANGUAGE ARTS",
-"EDUCATION AND MATHEMATICS",
-"EDUCATION AND MECHANICAL AND AUTOMECHANIC TECHNOLOGY",
-"EDUCATION AND MUSIC",
-"EDUCATION AND PHYSICS",
-"EDUCATION AND POLITICAL SCIENCE",
-"EDUCATION AND RELIGIOUS STUDIES",
-"EDUCATION AND SCIENCE",
-"EDUCATION AND SOCIAL SCIENCE",
-"EDUCATION AND SOCIAL STUDIES",
-"EDUCATION AND SOCIOLOGY",
-"EDUCATION AND YORUBA",
-"EDUCATION ARTS",
-"EDUCATION FINE AND APPLIED ARTS",
-"EDUCATION FOUNDATIONS AND MANAGEMENT",
-"EDUCATION IGBO AND LINGUISTICS",
-"EDUCATION LANGUAGE AND FRENCH",
-"EDUCATION PSCHYCHOLOGY AND CURRICULUM STUDIES",
-"EDUCATION TECHNOLOGY",
-"EDUCATION/FINE ART",
-"EDUCATION/HISTORY AND INTERNATIONAL STUDIES",
-"EDUCATIONAL FOUNDATIONS AND ADMINSTRATION",
-"EDUCATIONAL MANAGEMENT AND PLANNING",
-"EDUCATIONAL ADMINISTRATION AND PLANNING",
-"EDUCATIONAL / PSYCHOLOGY GUIDANCE AND COUNSELLING",
-"EDUCATIONAL ADMINISTRATION",
-"EDUCATIONAL ADMINISTRATION AND SUPERVISION",
-"EDUCATIONAL FOUNDATIONS",
-"EDUCATIONAL MANAGEMENT",
-"EDUCATIONAL MANAGEMENT AND POLICY",
-"EDUCATIONAL TECHNOLOGY",
-"EDUCATIONAL TECHNOLOGY / INTRODUCTORY TECHNOLOGY",
-"EFIK-IBIBIO",
-"ELECTRICAL AND COMPUTER ENGINEERING",
-"ELECTRICAL AND INFORMATION ENGINEERING",
-"ELECTRICAL ENGINEERING",
-"ELECTRICAL/ELECTRONICS TECHNOLOGY EDUCATION",
-"ELECTRICAL/ELECTRONICS EDUCATION",
-"ELECTRICAL/ELECTRONICS ENGINEERING",
-"ELECTRONICS",
-"ELECTRONICS ENGINEERING",
-"ELECTRONICS AND COMPUTER TECHNOLOGY",
-"ELECTRONICS AND COMPUTER ENGINEERING",
-"ELEMENTARY EDUCATION",
-"ENERGY AND PETROLEUM STUDIES",
-"ENERGY STUDIES",
-"ENGINEERING PHYSICS",
-"ENGLISH AND INTERNATIONAL STUDIES",
-"ENGLISH AND LITERARY STUDIES",
-"ENGLISH LANGUAGE",
-"ENGLISH LANGUAGE AND COMMUNICATION STUDIES",
-"ENGLISH LANGUAGE AND LITERATURE",
-"ENGLISH LITERATURE AND LANGUAGE",
-"ENGLISH STUDIES",
-"ENTREPRENEURIAL STUDIES",
-"ENTREPRENEURSHIP",
-"ENTREPRENEURSHIP AND BUSINESS MANAGEMENT",
-"ENTREPRENEURSHIP STUDIES AND INNOVATION",
-"ENVIROMENTAL MANAGEMENT TECHNOLOGY",
-"ENVIRONMENTAL EDUCATION",
-"ENVIRONMENTAL MANAGEMENT",
-"ENVIRONMENTAL TECHNOLOGY",
-"ENVIRONMENTAL RESOURCES MANAGEMENT",
-"ENVIRONMENTAL SCIENCE RESOURCES MANAGEMENT",
-"ENVIRONMENTAL BIOLOGY",
-"ENVIRONMENTAL BIOLOGY AND FISHERIES",
-"ENVIRONMENTAL ENGI NEERING",
-"ENVIRONMENTAL HEALTH SCIENCE",
-"ENVIRONMENTAL MANAGEMENT AND POLLUTION CONTROL",
-"ENVIRONMENTAL MANAGEMENT AND TOXICOLOGY",
-"ENVIRONMENTAL PROTECTION AND RESOURCES MANAGEMENT",
-"ENVIRONMENTAL SCIENCE",
-"ENVRIONMENTAL SCIENCE AND TECHNOLOGY",
-"ESTATE MANAGEMENT",
-"EUROPEAN AND NIGERIAN LANGUAGES",
-"EXERCISE AND SPORTS SCIENCE",
-"FAMILY NUTRITION AND CONSUMER SCIENCES",
-"FILM AND VIDEO STUDIES",
-"FILM ARTS",
-"FINANCE",
-"FINE AND INDUSTRIAL ARTS",
-"FINE ART",
-"FINE ARTS AND DESIGN",
-"FINE ARTS/FINE AND APPLIED ARTS",
-"FINE/APPLIED ARTS",
-"FISHERIES",
-"FISHERIES AND AQUACULTURE TECHNOLOGY",
-"FISHERIES AND AQUACULTURE",
-"FISHERIES AND AQUATIC ENVRIONMENT MANAGEMENT",
-"FISHERIES AND AQUATIC RESOURCES MANAGEMENT",
-"FISHERIES AND WILDLIFE MANAGEMENT",
-"FISHERIES MANAGEMENT",
-"FISHERIES TECHNOLOGY",
-"FOOD SCIENCE WITH BUSINESS",
-"FOOD TECHNOLOGY",
-"FOOD ENGINEERING",
-"FOOD SCIENCE",
-"FOOD SCIENCE AND ENGINEERING",
-"FOOD SCIENCE AND TECHNOLOGY",
-"FORENSIC SCIENCE",
-"FORESTRY",
-"FORESTRY / FOREST RESOURCES MANAGEMENT",
-"FORESTRY AND ENVIRONMENTAL MGT",
-"FORESTRY AND ENVIRONMENTAL TECHNOLOGY",
-"FORESTRY AND WOOD TECHNOLOGY",
-"FORESTRY AND WILDLIFE",
-"FORESTRY AND WILDLIFE MANAGEMENT",
-"FORESTRY AND WILDLIFE TECHNOLOGY",
-"FORESTRY WILDLIFE AND FISHERIES",
-"FRENCH",
-"FRENCH AND INTERNATIONAL RELATIONS",
-"FRENCH AND INTERNATIONAL STUDIES",
-"FRENCH WITH GERMAN/ RUSSIAN",
-"FULFULDE",
-"GAS ENGINEERING",
-"GENETICS AND BIOTECHNOLOGY",
-"GEOGRAPHY",
-"GEOGRAPHY AND METEOROLOGY",
-"GEOGRAPHY AND ENVIRONMENTAL MANAGEMENT",
-"GEOGRAPHY AND ENVIRONMENTAL SCIENCE",
-"GEOGRAPHY AND GEOSCIENCES",
-"GEOGRAPHY AND PLANNING",
-"GEOGRAPHY AND PLANNING SCIENCE",
-"GEOGRAPHY AND REGIONAL PLANNING",
-"GEOLOGICAL SCIENCES",
-"GEOLOGY",
-"GEOLOGY AND PETROLEUM STUDIES",
-"GEOLOGY AND MINERAL SCIENCE",
-"GEOLOGY AND GEOPHYSICS",
-"GEOLOGY AND MINERAL SCIENCES",
-"GEOLOGY AND MINING",
-"GEOPHYSICS",
-"GEOSCIENCE",
-"GERMAN",
-"GLASS TECHNOLOGY",
-"GOVERNMENT AND PUBLIC ADMINISTRATION",
-"GUIDANCE AND COUNSELLING",
-"HAUSA",
-"HEALTH AND SAFETY EDUCATION",
-"HEALTH EDUCATION",
-"HISTORY",
-"HISTORY AND DIPLOMACY",
-"HISTORY AND INTERNATIONAL RELATIONS",
-"HISTORY AND ARCHEAEOLOGY",
-"HISTORY AND DIPLOMATIC STUDIES",
-"HISTORY AND INTERNATIONAL STUDIES",
-"HISTORY AND STRATEGIC STUDIES",
-"HISTORY/SOCIOLOGY",
-"HOME ECONOMICS AND FOOD MANAGEMENT",
-"HOME AND HOTEL MANAGEMENT",
-"HOME ECONOMICS",
-"HOME ECONOMICS AND EDUCATION",
-"HOME ECONOMICS AND HOTEL MANAGEMENT AND EDUCATION",
-"HOME ECONOMICS AND MANAGEMENT/ ECONOMICS",
-"HOME SCIENCE",
-"HOME SCIENCE AND MANAGEMENT",
-"HOME SCIENCE NUTRITION AND DIETETICS",
-"HORTICULTURE",
-"HOSPITALITY AND TOURISM",
-"HOSPITALITY AND TOURISM MANAGEMENT",
-"HOTEL AND CATERING MANAGEMENT",
-"HOTEL AND TOURISM MANAGEMENT",
-"HOTEL MANAGEMENT AND TOURISM",
-"HUMAN ANATOMY",
-"HUMAN BIOLOGY",
-"HUMAN KINETICS",
-"HUMAN KINETICS AND HEALTH EDUCATION",
-"HUMAN NUTRITION AND DIETETICS",
-"HUMAN PHYSICAL AND HEALTH EDUCATION",
-"HUMAN PHYSIOLOGY",
-"HUMAN RESOURCES MANAGEMENT",
-"IGBO",
-"IGBO/LINGUISTICS",
-"INDUSTRAL MATHEMATICS/COMPUTER",
-"INDUSTRIAL AND ENVIRONMENTAL CHEMISTRY",
-"INDUSTRIAL AND LABOUR RELATIONS",
-"INDUSTRIAL EDUCATION TECHNOLOGY",
-"INDUSTRIAL MATHEMATICS /APPLIED STATISTICS",
-"INDUSTRIAL RELATIONS",
-"INDUSTRIAL TECHNOLOGY EDUCATION",
-"INDUSTRIAL AND PRODUCTION ENGINEERING",
-"INDUSTRIAL CHEMISTRY",
-"INDUSTRIAL DESIGN",
-"INDUSTRIAL ENGINEERING",
-"INDUSTRIAL MATHEMATICS",
-"INDUSTRIAL MICROBIOLOGY",
-"INDUSTRIAL PHYSICS",
-"INDUSTRIAL PHYSICS WITH APPLIED GEOPHYSICS",
-"INDUSTRIAL PHYSICS WITH ELECTRONICS AND IT APPLICATION",
-"INDUSTRIAL PHYSICS WITH RENEWABLE ENERGY",
-"INDUSTRIAL PRODUCTION ENGINEERING",
-"INDUSTRIAL RELATIONS AND HUMAN RESOURCES MANAGEMENT",
-"INDUSTRIAL RELATIONS AND PERSONNEL MANAGEMENT",
-"INDUSTRIAL TECHNICAL EDUCATION",
-"INFORMATION SYSTEM",
-"INFORMATION AND COMMUNICATION ENGINEERING",
-"INFORMATION AND COMMUNICATION TECHNOLOGY",
-"INFORMATION AND COMMUNICATION TECHNOLOGY ENGINEERING",
-"INFORMATION TECHNOLOGY",
-"INFORMATION AND COMMUNICATION SCIENCE",
-"INFORMATION RESOURCE MANAGEMENT",
-"INFORMATION SCIENCE AND MEDIA STUDIES",
-"INFORMATION SYSTEMS",
-"INSURANCE",
-"INSURANCE AND ACTUARIAL SCIENCE",
-"INSURANCE AND RISK MANAGEMENT",
-"INTELLIGENCE AND SECURITY STUDIES",
-"INTERNATIONAL RELATIONS AND STRATEGIC STUDIES",
-"INTERNATIONAL STUDIES AND DIPLOMACY",
-"INTERNATIONAL AND COMPARATIVE POLITICS",
-"INTERNATIONAL RELATIONS",
-"INTERNATIONAL RELATIONS AND DIPLOMACY",
-"INTERNATIONAL RELATIONSHIP & STRATEGIC STUDIES",
-"INTERNATIONAL STUDIES",
-"ISLAMIC STUDIES",
-"ISLAMIC/SHARIA LAW",
-"KANURI",
-"LABORATORY TECHNOLOGY",
-"LAND SURVEYING",
-"LAND SURVEYING AND GEOINFORMATICS",
-"LANGUAGE AND LITERATURE",
-"LANGUAGES AND LINGUISTICS",
-"LAW",
-"LIBRARY AND INFORMATION SCIENCE",
-"LIBRARY AND INFORMATION STUDIES",
-"LIBRARY AND INFORMATION MANAGEMENT",
-"LIBRARY SCIENCE",
-"LINGUISRICS AND KANURI",
-"LINGUISTIC AND NIGERIAN LANGUAGES",
-"LINGUISTICS",
-"LINGUISTICS / EDO",
-"LINGUISTICS /YORUBA",
-"LINGUISTICS AND AFRICAN LANGUAGE",
-"LINGUISTICS AND AFRICAN LANGUAGES",
-"LINGUISTICS AND COMMUNICATION STUDIES",
-"LINGUISTICS AND URHOBO",
-"LINGUISTICS FULFULDE",
-"LINGUISTICS IGBO AND OTHER AFRICAN LANGUAGES",
-"LITERATURE IN ENGLISH",
-"LIVESTOCK PRODUCTION TECHNOLOGY",
-"LOCAL GOVERNMENT AND DEVELOPMENT STUDIES",
-"LOCAL GOVERNMENT STUDIES",
-"MANAGEMENT",
-"MANAGEMENT INFORMATION SYSTEM",
-"MANAGEMENT AND ENTREPRENEURSHIP",
-"MANAGEMENT STUDIES",
-"MANAGEMENT TECHNOLOGY",
-"MARINE BIOLOGY",
-"MARINE BIOLOGY & FISHERIES",
-"MARINE ECONOMICS AND FINANCE",
-"MARINE ENGINEERING",
-"MARINE GEOLOGY",
-"MARINE SCIENCE AND TECHNOLOGY",
-"MARKETING",
-"MARKETING AND ADVERTISING",
-"MARKETING EDUCATION",
-"MASS COMMUNICATION",
-"MASS COMMUNICATION AND MEDIA TECHNOLOGY",
-"MATHEMATICAL SCIENCES",
-"MATHEMATICS",
-"MATHEMATICS AND ECONOMICS",
-"MATHEMATICS WITH COMPUTER SCIENCE",
-"MATHEMATICS WITH STATISTICS",
-"MATHEMATICS /COMPUTER SCIENCE EDUCATION",
-"MATHEMATICS /STATISTICS EDUCATION",
-"MATHEMATICS AND EDUCATION TECHNOLOGY",
-"MATHEMATICS AND STATISTICS",
-"MATHEMATICS/COMPUTER SCIENCE",
-"MATHEMATICS/STATISTICS",
-"MECHANICAL AND METURLIGICAL ENGINEERING",
-"MECHANICAL ENGINEERING",
-"MECHANICAL METALWORK TECHNOLOGY EDUCATION",
-"MECHANICAL/AUTOMOBILE TECHNOLOGY EDUCATION",
-"MECHANICAL/PRODUCTION ENGINEERING",
-"MECHATRONICS AND SYSTEM ENGINEERING",
-"MECHATRONICS ENGINEERING",
-"MEDIA AND COMMUNICATION STUDIES",
-"MEDICAL BIOCHEMISTRY",
-"MEDICAL LABORATORY SCIENCE",
-"MEDICAL REHABILITATION",
-"MEDICINE AND SURGERY",
-"METAL WORK TECHNOLOGY EDUCATION",
-"METALLURGICAL AND MATERIAL ENGINEERING",
-"METALLURGICAL ENGINEERING",
-"METALWORK / WOODWORK TECHNOLOGY EDUCATION",
-"METEOROLOGY",
-"METEOROLOGY AND CLIMATE CHANGE",
-"MICROBIOLOGY",
-"MICROBIOLOGY AND INDUSTRIAL BIOTECHNOLOGY",
-"MICROBIOLOGY AND BIOTECHNOLOGY",
-"MILITARY HISTORY",
-"MINING ENGINEERING",
-"MODERN AND EUROPEAN LANGUAGES",
-"MOLECULAR BIOLOGY",
-"MUSIC",
-"NATURAL AND ENVIRONMENTAL SCIENCE",
-"NAUTICAL SCIENCE",
-"NIGERIAN LANGUAGES",
-"NURSERY AND PRIMARY EDUCATION",
-"NURSING/NURSING SCEINCE",
-"NUTRITION AND CONSUMERS SERVICES",
-"NUTRITION AND DIETETICS",
-"OCEANOGRAPHY",
-"OFFICE AND INFORMATION MANAGEMENT",
-"OPERATIONS RESEARCH",
-"OPTOMETRY",
-"PARASITOLOGY AND ENTOMOLOGY",
-"PASTURE AND RANGE MANAGEMENT",
-"PEACE AND CONFLICT STUDIES",
-"PEACE AND DEVELOPMENT STUDIES",
-"PEACE STUDIES",
-"PEACE STUDIES AND CONFLICT RESOLUTION",
-"PERFORMING ARTS",
-"PERSONNEL MANAGEMENT",
-"PETROCHEMICAL ENGINEERING",
-"PETROLEUM AND GAS ENGINEERING",
-"PETROLEUM CHEMISTRY",
-"PETROLEUM ENGINEERING",
-"PHARMACOLOGY",
-"PHARMACOLOGY AND THERAPEUTICS",
-"PHARMACY",
-"PHILOSOPHY",
-"PHILOSOPHY AND RELIGIOUS STUDIES",
-"PHYSICAL AND HEALTH EDUCATION",
-"PHYSICAL EDUCATION",
-"PHYSICAL EDUCATION AND RECREATION",
-"PHYSICAL SCIENCES",
-"PHYSICS",
-"PHYSICS AND APPLIED PHYSICS",
-"PHYSICS AND COMPUTER ELECTRONIC",
-"PHYSICS AND ENERGY STUDIES",
-"PHYSICS ELECTRONICS",
-"PHYSICS WITH SOLAR ENERGY",
-"PHYSICS WITH COMPUTATIONAL MODELING",
-"PHYSICS WITH ELECTRONICS",
-"PHYSICS/ASTROLOGY",
-"PHYSICS/INDUSTRIAL PHYSICS",
-"PHYSIOLOGY",
-"PHYSIOTHERAPY",
-"PLANT BIOLOGY",
-"PLANT BIOLOGY AND BIOTECHNOLOGY",
-"PLANT BREEDING & SEED TECHNOLOGY",
-"PLANT BREEDING AND SEED SCIENCE",
-"PLANT PHYSIOLOGY & CROP PRODUCTION",
-"PLANT SCIENCE",
-"PLANT SCIENCE AND FORESTRY",
-"PLANT SCIENCE AND MICROBIOLOGY",
-"PLANT SCIENCE AND BIOTECHNOLOGY",
-"PLANT SCIENCE AND CROP PRODUCTION",
-"PLANT SCIENCE AND BIOTECHNOLOGY",
-"POLICY AND ADMINISTRATIVE STUDIES",
-"POLICY AND STRATEGIC STUDIES",
-"POLITICAL AND ADMINISTRATIVE STUDIES",
-"POLITICAL SCIENCE",
-"POLITICAL SCIENCE AND INTERNATIONAL RELATIONS",
-"POLITICAL SCIENCE AND INTERNATIONAL STUDIES",
-"POLITICAL SCIENCE / INTERNTIONAL LAW AND DIPLOMACY",
-"POLITICAL SCIENCE AND CONFLICT RESOLUTION",
-"POLITICAL SCIENCE AND DEFENCE STUDIES",
-"POLITICAL SCIENCE AND DIPLOMACY",
-"POLITICAL SCIENCE AND PUBLIC ADMINISTRATION",
-"POLYMER AND TEXTILE ENGINEERING",
-"POLYMER ENGINEERING",
-"POPULATION STUDIES",
-"PORT MANAGEMENT",
-"PORTUGUESE",
-"PORTUGUESE/ENGLISH",
-"PRE-PRIMARY AND PRIMARY EDUCATION",
-"PRIMARY AND ELEMENTARY EDUCATION",
-"PRIMARY EDUCATION STUDIES",
-"PRODUCTION ENGINEERING",
-"PROSTHESIS AND ORTHOPAEDIC TECHNOLOGY",
-"PSYCHOLOGY",
-"PSYCHOLOGY EDUCATION",
-"PUBLIC ADMINISTRATION",
-"PUBLIC ADMINISTRATION AND LOCAL GOVERNMENT",
-"PUBLIC ADMINISTRATION AND LOCAL GOVT",
-"PUBLIC AND COMMUNITY HEALTH",
-"PUBLIC AND PRIVATE INTERNATIONAL LAW",
-"PUBLIC HEALTH",
-"PUBLIC HEALTH TECHNOLOGY",
-"PUBLIC HEALTH SCIENCE",
-"PUBLIC RELATIONS AND ADVERTISING",
-"PURE AND APPLIED MATHEMATICS",
-"PURE AND APPLIED BIOLOGY",
-"PURE AND APPLIED CHEMISTRY",
-"PURE AND APPLIED PHYSICS",
-"PURE AND INDUSTRIAL CHEMISTRY",
-"PURE AND INDUSTRIAL PHYSICS",
-"PURE CHEMISTRY",
-"PURE PHYSICS",
-"QUANTITY SURVEYING",
-"RADIOGRAPHY",
-"RELIGIOUS AND CULTURAL STUDIES",
-"RELIGIOUS AND HUMAN RELATIONS",
-"RELIGIOUS STUDIES",
-"REMOTE SENSING AND GEOSCIENCES INFORMATION SYSTEM",
-"RUSSIAN",
-"RUSSIAN WITH FRENCH/GERMAN",
-"SCIENCE EDUCATION",
-"SCIENCE LABORATORY TECHNOLOGY",
-"SECRETARIAL ADMINISTRATION",
-"SECRETARIAL ADMINISTRATION AND EDUCATION",
-"SECRETARIAL EDUCATION",
-"SHIPPING AND MARITIME TECHNOLOGY",
-"SOCIAL JUSTICE",
-"SOCIAL WORK",
-"SOCIOLOGY",
-"SOCIOLOGY AND ANTHROPOLGY",
-"SOFTWARE ENGINEERING",
-"SOIL AND ENVIRONMENTAL MANAGEMENT",
-"SOIL SCIENCE",
-"SOIL SCIENCE AND LAND AGRO-CLIMATOLOGY",
-"SOIL SCIENCE AND LAND MANAGEMENT",
-"SOIL SCIENCE AND TECHNOLOGY",
-"SOIL SCIENCE MANAGEMENT",
-"SPECIAL EDUCATION",
-"SPORT SCIENCE",
-"SPORT SCIENCE AND HEALTH EDUCATION",
-"STATISTICS",
-"STATISTICS EDUCATION",
-"STATISTICS WITH DEMOGRAPHY",
-"STATISTICS/COMPUTER SCIENCE EDUCATION",
-"STRUCTURAL ENGINEERING",
-"SURVEYING AND GEOINFORMATICS",
-"SYSTEMS ENGINEERING",
-"TAXATION",
-"TEACHER EDUCATION",
-"TECHNICAL EDUCATION",
-"TECHNOLOGICAL MANAGEMENT",
-"TECHNOLOGY AND VOCATIONAL EDUCATION",
-"TECHNOLOGY EDUCATION",
-"TELECOMMUNICATION MANAGEMENT",
-"TELECOMMUNICATION SCIENCE",
-"TELECOMMUNICATION AND WIRELESS TECHNOLOGY",
-"TELECOMMUNICATION ENGINEERING",
-"TEXTILE SCIENCE AND TECHNOLOGY",
-"THEATRE AND FILM STUDIES",
-"THEATRE AND MEDIA ARTS",
-"THEATRE AND PERFORMING ARTS",
-"THEATRE ARTS",
-"THEOLOGY",
-"TOURISM AND EVENT MANAGEMENT",
-"TOURISM STUDIES",
-"TRANSPORT AND PLANNING",
-"TRANSPORT AND TOURISM",
-"TRANSPORT AND LOGISTICS MANAGEMENT",
-"TRANSPORT LOGISTICS MANAGEMENT",
-"TRANSPORT MANAGEMENT",
-"TRANSPORT MANAGEMENT TECHNOLOGY",
-"TRANSPORT PLANNING AND MANAGEMENT",
-"TRANSPORT PLANNING AND MANAGEMENT AND EDUCATION TPM",
-"URBAN AND REGIONAL PLANNING",
-"VETERINARY MEDICINE",
-"VISUAL AND APPLIED ARTS",
-"VISUAL ARTS AND TECHNOLOGY",
-"VOCATIONAL AND TECHNICAL EDUCATION",
-"VOCATIONAL EDUCATION",
-"VOCATIONAL INDUSTRIAL EDUCATION",
-"WATER RESOURCES AND ENVIROMENTAL ENGINEERING",
-"WATER RESOURCES AQUACULTURE AND FISHERIES TECHNOLOGY",
-"WATER RESOURCES MANAGEMENT AND AGROMETEOROLOGY",
-"WILDLIFE MANAGEMENT",
-"WOOD PRODUCTION ENGINEERING",
-"WOOD PRODUCTS ENGINEERING",
-"WOODWORK TECHNOLOGY EDUCATION",
-"WOODWORK/EDUCATION",
-"YORUBA",
-"YORUBA AND COMMUNICATION ARTS",
-"ZOOLOGY",
-"ZOOLOGY AND AQUACULTURE",
-"ZOOLOGY AND ENVIRONMENTAL BIOLOGY"
+  "ACCOUNTING",
+  "ACCOUNTING TECHNOLOGY",
+  "ACTUARIAL SCIENCE",
+  "ADULT AND COMMUNITY EDUCATION",
+  "ADULT AND CONTINOUS EDUCATION",
+  "ADULT AND NON-FORMAL EDUCATION",
+  "ADULT EDUCATION",
+  "ADULT EDUCATION / POLITICAL SCIENCE AND PUBLIC ADMINISTRATION",
+  "ADULT EDUCATION/ECONOMICS AND STATISTICS",
+  "ADULT EDUCATION/ENGLISH LITERATURE",
+  "ADULT EDUCATION/GEOGRAPHY AND REGIONAL PLANNING",
+  "AERONAUTIC AND ASTRONAUTIC ENGINEERING",
+  "AEROSPACE ENGINEERING",
+  "AFRICAN AND ASIAN STUDIES",
+  "AGRIC BUSINESS",
+  "AGRIC COOPERATIVE MANAGEMENT",
+  "AGRIC EXTENSION AND RURAL DEVELOPMENT",
+  "AGRIC EXTENSION SERVICE",
+  "AGRIC-ECONOMICS AND EXTENSION",
+  "AGRIC-EXTENSION AND RURAL SOCIOLOGY",
+  "AGRICULTURAL AND ENVIRONMENTAL ENGINEERING",
+  "AGRICULTURAL ADMINISTRATION",
+  "AGRICULTURAL AND BIORESOURCES ENGINEERING",
+  "AGRICULTURAL AND BIOSYSTEMS ENGINEERING",
+  "AGRICULTURAL ECONOMICS",
+  "AGRICULTURAL ECONOMICS & FARM MANAGEMENT",
+  "AGRICULTURAL ENGINEERING",
+  "AGRICULTURAL EXTENSION AND COMMUNICATION TECHNOLOGY",
+  "AGRICULTURAL EXTENSION AND MANAGEMENT",
+  "AGRICULTURAL PRODUCATION AND MANAGEMENT SCIENCE AND EDUCATION",
+  "AGRICULTURAL SCIENCE AND EDUCATION",
+  "AGRICULTURAL TECHNOLOGY AND EDUCATION",
+  "AGRICULTURE",
+  "AGRICULTURE AND RESOURCE ECONOMICS",
+  "AGRONOMY",
+  "ANATOMY",
+  "ANIMAL PHYSIOLOGY",
+  "ANIMAL AND ENVIRONMENTAL BIOLOGY",
+  "ANIMAL BIOLOGY AND ENVIRONMENT",
+  "ANIMAL BREEDING AND GENETICS",
+  "ANIMAL NUTRITION",
+  "ANIMAL NUTRITION AND BIOTECHNOLOGY",
+  "ANIMAL PRODUCTION",
+  "ANIMAL PRODUCTION AND FISHERIES",
+  "ANIMAL PRODUCTION AND HEALTH",
+  "ANIMAL PRODUCTION AND HEALTH SERVICES",
+  "ANIMAL SCIENCE",
+  "ANIMAL SCIENCE AND FISHERIES",
+  "ANIMAL SCIENCE AND FISHERIES MANAGEMENT",
+  "ANIMAL SCIENCE AND RANGE MANAGEMENT",
+  "ANIMAL SCIENCE AND TECHNOLOGY",
+  "ANTHROPOLOGY",
+  "ANTHROPOLOGY BIOLOGICAL",
+  "APPLIED MATHEMATICS WITH STATISTICS",
+  "APPLIED GEOLOGY",
+  "APPLIED BIOCHEMISTRY",
+  "APPLIED BIOLOGY",
+  "APPLIED BIOLOGY AND GENETICS",
+  "APPLIED BOLOGY AND BIOTECHNOLOGY",
+  "APPLIED BOTANY",
+  "APPLIED CHEMISTRY",
+  "APPLIED ECOLOGY",
+  "APPLIED GEOPHYSICS",
+  "APPLIED MICROBIOLOGY",
+  "APPLIED MICROBIOLOGY AND BREWING",
+  "APPLIED PHYSICS",
+  "APPLIED ZOOLOGY",
+  "AQUACULTURE AND FISHERIES MANAGEMENT",
+  "ARABIC AND ISLAMIC STUDIES",
+  "ARABIC LANGUAGE",
+  "ARABIC LANGUAGE AND LITERATURE",
+  "ARABIC STUDIES",
+  "ARCHAEOLOGY",
+  "ARCHAEOLOGY SINGLE HONOUR",
+  "ARCHITECTURE",
+  "ARTS COMBINED HONOURS",
+  "AUTO AND MECHANICAL TECHNOLOGY EDUCATION",
+  "AUTOMOBILE ENGINEERING",
+  "AUTOMOBILE TECHNOLOGY EDUCATION",
+  "AUTOMOTIVE ENGINEERING",
+  "BA SINGLE AND COMBINED HONS IN MODERN LANGUAGES",
+  "BANKING AND FINANCE",
+  "BIOCHEMISTRY",
+  "BIOCHEMISTRY AND MOLECULAR BIOLOGY",
+  "BIOINFORMATICS",
+  "BIOLOGICAL SCIENCES",
+  "BIOLOGY",
+  "BIOMEDICAL ENGINEERING",
+  "BIOMEDICAL TECHNOLOGY",
+  "BIOTECHNOLOGY",
+  "BOTANY",
+  "BOTANY AND ECOLOGICAL STUDIES",
+  "BUILDING",
+  "BUILDING AND WOODWORK TECHNOLOGY EDUCATION",
+  "BUILDING EDUCATION",
+  "BUILDING TECHNOLOGY",
+  "BUILDING TECHNOLOGY EDUCATION",
+  "BUSINESS ADMINISTRATION",
+  "BUSINESS AND ENTREPRENEURSHIP STUDIES",
+  "BUSINESS EDUCATION",
+  "BUSINESS MANAGEMENT",
+  "BUSINESS MANAGEMENT/ MANAGEMENT SCIENCE",
+  "CELL BIOLOGY & GENETICS",
+  "CHEMICAL SCIENCES",
+  "CHEMICAL AND POLYMER ENGINEERING",
+  "CHEMICAL ENGINEERING",
+  "CHEMICAL/PETROCHEMICAL ENGINEERING",
+  "CHEMISTRY",
+  "CHEMISTRY AND INDUSTRIAL CHEMISTRY",
+  "CHINESE STUDIES",
+  "CHRISTAIN THEOLOGY",
+  "CHRISTIAN RELIGIOUS STUDIES",
+  "CHRISTIAN STUDIES",
+  "CIVIL ENGINEERING",
+  "CIVIL LAW",
+  "CLASSICAL STUDIES",
+  "COMMON AND ISLAMIC LAW",
+  "COMMON LAW",
+  "COMMUNICATION TECHNOLOGY",
+  "COMMUNICATION AND WIRELESS TECHNOLOGY",
+  "COMMUNICATION AND LANGUAGE ARTS EEDUCATION",
+  "COMMUNICATION AND LANGUAGE ARTS",
+  "COMMUNICATION ARTS",
+  "COMMUNICATION STUDIES",
+  "COMMUNICATIONS TECHNOLOGY",
+  "COMPARATIVE RELIGIOUS STUDIES",
+  "COMPUTER INFORMATION AND COMMUNICATION SCIENCE",
+  "COMPUTER SCIENCE AND INFORMATICS",
+  "COMPUTER SCIENCE AND INFORMATION SCIENCE",
+  "COMPUTER WITH STATISTICS",
+  "COMPUTER WITH ELECTRONICS",
+  "COMPUTER AND COMMUNICATION ENGINEERING",
+  "COMPUTER EDUCATION",
+  "COMPUTER ENGINEERING",
+  "COMPUTER SCIENCE",
+  "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+  "COMPUTER SCIENCE AND MATHEMATICS",
+  "COMPUTER SCIENCE WITH ECONOMICS",
+  "COMPUTER SCIENCE WITH ECONOMICS MATHEMATICS",
+  "COMPUTER SCIENCE WITH MATHEMATICS",
+  "CONFLICT AND PEACE RESOLUTION",
+  "CONSERVATION BIOLOGY",
+  "CONSTRUCTION TECHNOLOGY EDUCATION",
+  "COOPERATIVE AND RURAL DEVELOPMENT",
+  "COOPERATIVE ECONOMICS AND MANAGEMENT",
+  "COOPERATIVE MANAGEMENT",
+  "COUNSELLOR EDUCATION",
+  "CREATIVE AND VISUAL ARTS",
+  "CREATIVE ARTS",
+  "CRIMINOLOGY",
+  "CRIMINOLOGY AND PENOLOGY",
+  "CRIMINOLOGY AND SECURITY STUDIES",
+  "CROP PRODUCTION",
+  "CROP AND ENVIRONMENTAL PROTECTION",
+  "CROP PRODUCTION AND HORTICULTURE",
+  "CROP PRODUCTION AND LANDSCAPE MANAGEMENT",
+  "CROP PRODUCTION AND PROTECTION",
+  "CROP PRODUCTION AND SOIL SCIENCE",
+  "CROP PRODUCTION TECHNOLOGY",
+  "CROP PROTECTION",
+  "CROP SCIENCE",
+  "CROP SCIENCE AND BIOTECHNOLOGY",
+  "CROP SCIENCE AND HORTICULTURE",
+  "CROP SCIENCE AND PRODUCTION",
+  "CROP SCIENCE AND TECHNOLOGY",
+  "CROP SOIL AND ENVIRONMENTAL SCIENCE",
+  "CROP SOIL AND PEST MANAGEMENT",
+  "CURRICULUM AND INSTRUCTION",
+  "CURRICULUM STUDIES",
+  "CYBER SECURITY",
+  "CYBER SECURITY SCIENCE",
+  "DATA MANAGEMENT",
+  "DEMOGRAPHY AND SOCIAL STATISTICS",
+  "DEMOGRAPHY AND STATISTICS",
+  "DENTAL TECHNOLOGY",
+  "DENTISTRY AND DENTAL SURGERY",
+  "DRAMA/DRAMATIC/PERFORMING ARTS",
+  "EARLY CHILDHOOD AND PRIMARY EDUCATION",
+  "EARLY CHILDHOOD EDUCATION",
+  "EARTH SCIENCE",
+  "ECOLOGY",
+  "ECOLOGY AND ENVIRONMENTAL STUDIES",
+  "ECONOMICS",
+  "ECONOMICS /GEOGRAPHY/PHYSICS",
+  "ECONOMICS AND DEVELOPMENT STUDIES",
+  "ECONOMICS AND STATISTICS",
+  "ECONOMICS WITH OPERATION RESEARCH",
+  "ECOTOURISM & WILDLIFE MANAGEMENT",
+  "EDUCATION / LANGUAGE /ENGLISH",
+  "EDUCATION /CONSTRUCTION TECHNOLOGY",
+  "EDUCATION /MECHANICAL TECHNOLOGY",
+  "EDUCATION ACCOUNTING",
+  "EDUCATION AND ACCOUNTANCY",
+  "EDUCATION AND ARABIC",
+  "EDUCATION AND BIOLOGY",
+  "EDUCATION AND BUSINESS ADMINISTRATION",
+  "EDUCATION AND CHEMISTRY",
+  "EDUCATION AND CHRISTIAN RELIGIOUS STUDIES",
+  "EDUCATION AND COMPUTER SCIENCE",
+  "EDUCATION AND ECONOMICS",
+  "EDUCATION AND EDO LANGUAGE",
+  "EDUCATION AND EFIK/IBIBIO",
+  "EDUCATION AND ENGLISH AND LITERARY STUDIES",
+  "EDUCATION AND ENGLISH LANGUAGE",
+  "EDUCATION AND ENGLISH LANGUAGE AND LITERATURE",
+  "EDUCATION AND FRENCH",
+  "EDUCATION AND GEOGRAPHY",
+  "EDUCATION AND GOVERNMENT",
+  "EDUCATION AND HAUSA",
+  "EDUCATION AND HISTORY",
+  "EDUCATION AND IGBO",
+  "EDUCATION AND INTEGRATED SCIENCE",
+  "EDUCATION AND ISLAMIC STUDIES",
+  "EDUCATION AND LANGUAGE ARTS",
+  "EDUCATION AND MATHEMATICS",
+  "EDUCATION AND MECHANICAL AND AUTOMECHANIC TECHNOLOGY",
+  "EDUCATION AND MUSIC",
+  "EDUCATION AND PHYSICS",
+  "EDUCATION AND POLITICAL SCIENCE",
+  "EDUCATION AND RELIGIOUS STUDIES",
+  "EDUCATION AND SCIENCE",
+  "EDUCATION AND SOCIAL SCIENCE",
+  "EDUCATION AND SOCIAL STUDIES",
+  "EDUCATION AND SOCIOLOGY",
+  "EDUCATION AND YORUBA",
+  "EDUCATION ARTS",
+  "EDUCATION FINE AND APPLIED ARTS",
+  "EDUCATION FOUNDATIONS AND MANAGEMENT",
+  "EDUCATION IGBO AND LINGUISTICS",
+  "EDUCATION LANGUAGE AND FRENCH",
+  "EDUCATION PSCHYCHOLOGY AND CURRICULUM STUDIES",
+  "EDUCATION TECHNOLOGY",
+  "EDUCATION/FINE ART",
+  "EDUCATION/HISTORY AND INTERNATIONAL STUDIES",
+  "EDUCATIONAL FOUNDATIONS AND ADMINSTRATION",
+  "EDUCATIONAL MANAGEMENT AND PLANNING",
+  "EDUCATIONAL ADMINISTRATION AND PLANNING",
+  "EDUCATIONAL / PSYCHOLOGY GUIDANCE AND COUNSELLING",
+  "EDUCATIONAL ADMINISTRATION",
+  "EDUCATIONAL ADMINISTRATION AND SUPERVISION",
+  "EDUCATIONAL FOUNDATIONS",
+  "EDUCATIONAL MANAGEMENT",
+  "EDUCATIONAL MANAGEMENT AND POLICY",
+  "EDUCATIONAL TECHNOLOGY",
+  "EDUCATIONAL TECHNOLOGY / INTRODUCTORY TECHNOLOGY",
+  "EFIK-IBIBIO",
+  "ELECTRICAL AND COMPUTER ENGINEERING",
+  "ELECTRICAL AND INFORMATION ENGINEERING",
+  "ELECTRICAL ENGINEERING",
+  "ELECTRICAL/ELECTRONICS TECHNOLOGY EDUCATION",
+  "ELECTRICAL/ELECTRONICS EDUCATION",
+  "ELECTRICAL/ELECTRONICS ENGINEERING",
+  "ELECTRONICS",
+  "ELECTRONICS ENGINEERING",
+  "ELECTRONICS AND COMPUTER TECHNOLOGY",
+  "ELECTRONICS AND COMPUTER ENGINEERING",
+  "ELEMENTARY EDUCATION",
+  "ENERGY AND PETROLEUM STUDIES",
+  "ENERGY STUDIES",
+  "ENGINEERING PHYSICS",
+  "ENGLISH AND INTERNATIONAL STUDIES",
+  "ENGLISH AND LITERARY STUDIES",
+  "ENGLISH LANGUAGE",
+  "ENGLISH LANGUAGE AND COMMUNICATION STUDIES",
+  "ENGLISH LANGUAGE AND LITERATURE",
+  "ENGLISH LITERATURE AND LANGUAGE",
+  "ENGLISH STUDIES",
+  "ENTREPRENEURIAL STUDIES",
+  "ENTREPRENEURSHIP",
+  "ENTREPRENEURSHIP AND BUSINESS MANAGEMENT",
+  "ENTREPRENEURSHIP STUDIES AND INNOVATION",
+  "ENVIROMENTAL MANAGEMENT TECHNOLOGY",
+  "ENVIRONMENTAL EDUCATION",
+  "ENVIRONMENTAL MANAGEMENT",
+  "ENVIRONMENTAL TECHNOLOGY",
+  "ENVIRONMENTAL RESOURCES MANAGEMENT",
+  "ENVIRONMENTAL SCIENCE RESOURCES MANAGEMENT",
+  "ENVIRONMENTAL BIOLOGY",
+  "ENVIRONMENTAL BIOLOGY AND FISHERIES",
+  "ENVIRONMENTAL ENGI NEERING",
+  "ENVIRONMENTAL HEALTH SCIENCE",
+  "ENVIRONMENTAL MANAGEMENT AND POLLUTION CONTROL",
+  "ENVIRONMENTAL MANAGEMENT AND TOXICOLOGY",
+  "ENVIRONMENTAL PROTECTION AND RESOURCES MANAGEMENT",
+  "ENVIRONMENTAL SCIENCE",
+  "ENVRIONMENTAL SCIENCE AND TECHNOLOGY",
+  "ESTATE MANAGEMENT",
+  "EUROPEAN AND NIGERIAN LANGUAGES",
+  "EXERCISE AND SPORTS SCIENCE",
+  "FAMILY NUTRITION AND CONSUMER SCIENCES",
+  "FILM AND VIDEO STUDIES",
+  "FILM ARTS",
+  "FINANCE",
+  "FINE AND INDUSTRIAL ARTS",
+  "FINE ART",
+  "FINE ARTS AND DESIGN",
+  "FINE ARTS/FINE AND APPLIED ARTS",
+  "FINE/APPLIED ARTS",
+  "FISHERIES",
+  "FISHERIES AND AQUACULTURE TECHNOLOGY",
+  "FISHERIES AND AQUACULTURE",
+  "FISHERIES AND AQUATIC ENVRIONMENT MANAGEMENT",
+  "FISHERIES AND AQUATIC RESOURCES MANAGEMENT",
+  "FISHERIES AND WILDLIFE MANAGEMENT",
+  "FISHERIES MANAGEMENT",
+  "FISHERIES TECHNOLOGY",
+  "FOOD SCIENCE WITH BUSINESS",
+  "FOOD TECHNOLOGY",
+  "FOOD ENGINEERING",
+  "FOOD SCIENCE",
+  "FOOD SCIENCE AND ENGINEERING",
+  "FOOD SCIENCE AND TECHNOLOGY",
+  "FORENSIC SCIENCE",
+  "FORESTRY",
+  "FORESTRY / FOREST RESOURCES MANAGEMENT",
+  "FORESTRY AND ENVIRONMENTAL MGT",
+  "FORESTRY AND ENVIRONMENTAL TECHNOLOGY",
+  "FORESTRY AND WOOD TECHNOLOGY",
+  "FORESTRY AND WILDLIFE",
+  "FORESTRY AND WILDLIFE MANAGEMENT",
+  "FORESTRY AND WILDLIFE TECHNOLOGY",
+  "FORESTRY WILDLIFE AND FISHERIES",
+  "FRENCH",
+  "FRENCH AND INTERNATIONAL RELATIONS",
+  "FRENCH AND INTERNATIONAL STUDIES",
+  "FRENCH WITH GERMAN/ RUSSIAN",
+  "FULFULDE",
+  "GAS ENGINEERING",
+  "GENETICS AND BIOTECHNOLOGY",
+  "GEOGRAPHY",
+  "GEOGRAPHY AND METEOROLOGY",
+  "GEOGRAPHY AND ENVIRONMENTAL MANAGEMENT",
+  "GEOGRAPHY AND ENVIRONMENTAL SCIENCE",
+  "GEOGRAPHY AND GEOSCIENCES",
+  "GEOGRAPHY AND PLANNING",
+  "GEOGRAPHY AND PLANNING SCIENCE",
+  "GEOGRAPHY AND REGIONAL PLANNING",
+  "GEOLOGICAL SCIENCES",
+  "GEOLOGY",
+  "GEOLOGY AND PETROLEUM STUDIES",
+  "GEOLOGY AND MINERAL SCIENCE",
+  "GEOLOGY AND GEOPHYSICS",
+  "GEOLOGY AND MINERAL SCIENCES",
+  "GEOLOGY AND MINING",
+  "GEOPHYSICS",
+  "GEOSCIENCE",
+  "GERMAN",
+  "GLASS TECHNOLOGY",
+  "GOVERNMENT AND PUBLIC ADMINISTRATION",
+  "GUIDANCE AND COUNSELLING",
+  "HAUSA",
+  "HEALTH AND SAFETY EDUCATION",
+  "HEALTH EDUCATION",
+  "HISTORY",
+  "HISTORY AND DIPLOMACY",
+  "HISTORY AND INTERNATIONAL RELATIONS",
+  "HISTORY AND ARCHEAEOLOGY",
+  "HISTORY AND DIPLOMATIC STUDIES",
+  "HISTORY AND INTERNATIONAL STUDIES",
+  "HISTORY AND STRATEGIC STUDIES",
+  "HISTORY/SOCIOLOGY",
+  "HOME ECONOMICS AND FOOD MANAGEMENT",
+  "HOME AND HOTEL MANAGEMENT",
+  "HOME ECONOMICS",
+  "HOME ECONOMICS AND EDUCATION",
+  "HOME ECONOMICS AND HOTEL MANAGEMENT AND EDUCATION",
+  "HOME ECONOMICS AND MANAGEMENT/ ECONOMICS",
+  "HOME SCIENCE",
+  "HOME SCIENCE AND MANAGEMENT",
+  "HOME SCIENCE NUTRITION AND DIETETICS",
+  "HORTICULTURE",
+  "HOSPITALITY AND TOURISM",
+  "HOSPITALITY AND TOURISM MANAGEMENT",
+  "HOTEL AND CATERING MANAGEMENT",
+  "HOTEL AND TOURISM MANAGEMENT",
+  "HOTEL MANAGEMENT AND TOURISM",
+  "HUMAN ANATOMY",
+  "HUMAN BIOLOGY",
+  "HUMAN KINETICS",
+  "HUMAN KINETICS AND HEALTH EDUCATION",
+  "HUMAN NUTRITION AND DIETETICS",
+  "HUMAN PHYSICAL AND HEALTH EDUCATION",
+  "HUMAN PHYSIOLOGY",
+  "HUMAN RESOURCES MANAGEMENT",
+  "IGBO",
+  "IGBO/LINGUISTICS",
+  "INDUSTRAL MATHEMATICS/COMPUTER",
+  "INDUSTRIAL AND ENVIRONMENTAL CHEMISTRY",
+  "INDUSTRIAL AND LABOUR RELATIONS",
+  "INDUSTRIAL EDUCATION TECHNOLOGY",
+  "INDUSTRIAL MATHEMATICS /APPLIED STATISTICS",
+  "INDUSTRIAL RELATIONS",
+  "INDUSTRIAL TECHNOLOGY EDUCATION",
+  "INDUSTRIAL AND PRODUCTION ENGINEERING",
+  "INDUSTRIAL CHEMISTRY",
+  "INDUSTRIAL DESIGN",
+  "INDUSTRIAL ENGINEERING",
+  "INDUSTRIAL MATHEMATICS",
+  "INDUSTRIAL MICROBIOLOGY",
+  "INDUSTRIAL PHYSICS",
+  "INDUSTRIAL PHYSICS WITH APPLIED GEOPHYSICS",
+  "INDUSTRIAL PHYSICS WITH ELECTRONICS AND IT APPLICATION",
+  "INDUSTRIAL PHYSICS WITH RENEWABLE ENERGY",
+  "INDUSTRIAL PRODUCTION ENGINEERING",
+  "INDUSTRIAL RELATIONS AND HUMAN RESOURCES MANAGEMENT",
+  "INDUSTRIAL RELATIONS AND PERSONNEL MANAGEMENT",
+  "INDUSTRIAL TECHNICAL EDUCATION",
+  "INFORMATION SYSTEM",
+  "INFORMATION AND COMMUNICATION ENGINEERING",
+  "INFORMATION AND COMMUNICATION TECHNOLOGY",
+  "INFORMATION AND COMMUNICATION TECHNOLOGY ENGINEERING",
+  "INFORMATION TECHNOLOGY",
+  "INFORMATION AND COMMUNICATION SCIENCE",
+  "INFORMATION RESOURCE MANAGEMENT",
+  "INFORMATION SCIENCE AND MEDIA STUDIES",
+  "INFORMATION SYSTEMS",
+  "INSURANCE",
+  "INSURANCE AND ACTUARIAL SCIENCE",
+  "INSURANCE AND RISK MANAGEMENT",
+  "INTELLIGENCE AND SECURITY STUDIES",
+  "INTERNATIONAL RELATIONS AND STRATEGIC STUDIES",
+  "INTERNATIONAL STUDIES AND DIPLOMACY",
+  "INTERNATIONAL AND COMPARATIVE POLITICS",
+  "INTERNATIONAL RELATIONS",
+  "INTERNATIONAL RELATIONS AND DIPLOMACY",
+  "INTERNATIONAL RELATIONSHIP & STRATEGIC STUDIES",
+  "INTERNATIONAL STUDIES",
+  "ISLAMIC STUDIES",
+  "ISLAMIC/SHARIA LAW",
+  "KANURI",
+  "LABORATORY TECHNOLOGY",
+  "LAND SURVEYING",
+  "LAND SURVEYING AND GEOINFORMATICS",
+  "LANGUAGE AND LITERATURE",
+  "LANGUAGES AND LINGUISTICS",
+  "LAW",
+  "LIBRARY AND INFORMATION SCIENCE",
+  "LIBRARY AND INFORMATION STUDIES",
+  "LIBRARY AND INFORMATION MANAGEMENT",
+  "LIBRARY SCIENCE",
+  "LINGUISRICS AND KANURI",
+  "LINGUISTIC AND NIGERIAN LANGUAGES",
+  "LINGUISTICS",
+  "LINGUISTICS / EDO",
+  "LINGUISTICS /YORUBA",
+  "LINGUISTICS AND AFRICAN LANGUAGE",
+  "LINGUISTICS AND AFRICAN LANGUAGES",
+  "LINGUISTICS AND COMMUNICATION STUDIES",
+  "LINGUISTICS AND URHOBO",
+  "LINGUISTICS FULFULDE",
+  "LINGUISTICS IGBO AND OTHER AFRICAN LANGUAGES",
+  "LITERATURE IN ENGLISH",
+  "LIVESTOCK PRODUCTION TECHNOLOGY",
+  "LOCAL GOVERNMENT AND DEVELOPMENT STUDIES",
+  "LOCAL GOVERNMENT STUDIES",
+  "MANAGEMENT",
+  "MANAGEMENT INFORMATION SYSTEM",
+  "MANAGEMENT AND ENTREPRENEURSHIP",
+  "MANAGEMENT STUDIES",
+  "MANAGEMENT TECHNOLOGY",
+  "MARINE BIOLOGY",
+  "MARINE BIOLOGY & FISHERIES",
+  "MARINE ECONOMICS AND FINANCE",
+  "MARINE ENGINEERING",
+  "MARINE GEOLOGY",
+  "MARINE SCIENCE AND TECHNOLOGY",
+  "MARKETING",
+  "MARKETING AND ADVERTISING",
+  "MARKETING EDUCATION",
+  "MASS COMMUNICATION",
+  "MASS COMMUNICATION AND MEDIA TECHNOLOGY",
+  "MATHEMATICAL SCIENCES",
+  "MATHEMATICS",
+  "MATHEMATICS AND ECONOMICS",
+  "MATHEMATICS WITH COMPUTER SCIENCE",
+  "MATHEMATICS WITH STATISTICS",
+  "MATHEMATICS /COMPUTER SCIENCE EDUCATION",
+  "MATHEMATICS /STATISTICS EDUCATION",
+  "MATHEMATICS AND EDUCATION TECHNOLOGY",
+  "MATHEMATICS AND STATISTICS",
+  "MATHEMATICS/COMPUTER SCIENCE",
+  "MATHEMATICS/STATISTICS",
+  "MECHANICAL AND METURLIGICAL ENGINEERING",
+  "MECHANICAL ENGINEERING",
+  "MECHANICAL METALWORK TECHNOLOGY EDUCATION",
+  "MECHANICAL/AUTOMOBILE TECHNOLOGY EDUCATION",
+  "MECHANICAL/PRODUCTION ENGINEERING",
+  "MECHATRONICS AND SYSTEM ENGINEERING",
+  "MECHATRONICS ENGINEERING",
+  "MEDIA AND COMMUNICATION STUDIES",
+  "MEDICAL BIOCHEMISTRY",
+  "MEDICAL LABORATORY SCIENCE",
+  "MEDICAL REHABILITATION",
+  "MEDICINE AND SURGERY",
+  "METAL WORK TECHNOLOGY EDUCATION",
+  "METALLURGICAL AND MATERIAL ENGINEERING",
+  "METALLURGICAL ENGINEERING",
+  "METALWORK / WOODWORK TECHNOLOGY EDUCATION",
+  "METEOROLOGY",
+  "METEOROLOGY AND CLIMATE CHANGE",
+  "MICROBIOLOGY",
+  "MICROBIOLOGY AND INDUSTRIAL BIOTECHNOLOGY",
+  "MICROBIOLOGY AND BIOTECHNOLOGY",
+  "MILITARY HISTORY",
+  "MINING ENGINEERING",
+  "MODERN AND EUROPEAN LANGUAGES",
+  "MOLECULAR BIOLOGY",
+  "MUSIC",
+  "NATURAL AND ENVIRONMENTAL SCIENCE",
+  "NAUTICAL SCIENCE",
+  "NIGERIAN LANGUAGES",
+  "NURSERY AND PRIMARY EDUCATION",
+  "NURSING/NURSING SCEINCE",
+  "NUTRITION AND CONSUMERS SERVICES",
+  "NUTRITION AND DIETETICS",
+  "OCEANOGRAPHY",
+  "OFFICE AND INFORMATION MANAGEMENT",
+  "OPERATIONS RESEARCH",
+  "OPTOMETRY",
+  "PARASITOLOGY AND ENTOMOLOGY",
+  "PASTURE AND RANGE MANAGEMENT",
+  "PEACE AND CONFLICT STUDIES",
+  "PEACE AND DEVELOPMENT STUDIES",
+  "PEACE STUDIES",
+  "PEACE STUDIES AND CONFLICT RESOLUTION",
+  "PERFORMING ARTS",
+  "PERSONNEL MANAGEMENT",
+  "PETROCHEMICAL ENGINEERING",
+  "PETROLEUM AND GAS ENGINEERING",
+  "PETROLEUM CHEMISTRY",
+  "PETROLEUM ENGINEERING",
+  "PHARMACOLOGY",
+  "PHARMACOLOGY AND THERAPEUTICS",
+  "PHARMACY",
+  "PHILOSOPHY",
+  "PHILOSOPHY AND RELIGIOUS STUDIES",
+  "PHYSICAL AND HEALTH EDUCATION",
+  "PHYSICAL EDUCATION",
+  "PHYSICAL EDUCATION AND RECREATION",
+  "PHYSICAL SCIENCES",
+  "PHYSICS",
+  "PHYSICS AND APPLIED PHYSICS",
+  "PHYSICS AND COMPUTER ELECTRONIC",
+  "PHYSICS AND ENERGY STUDIES",
+  "PHYSICS ELECTRONICS",
+  "PHYSICS WITH SOLAR ENERGY",
+  "PHYSICS WITH COMPUTATIONAL MODELING",
+  "PHYSICS WITH ELECTRONICS",
+  "PHYSICS/ASTROLOGY",
+  "PHYSICS/INDUSTRIAL PHYSICS",
+  "PHYSIOLOGY",
+  "PHYSIOTHERAPY",
+  "PLANT BIOLOGY",
+  "PLANT BIOLOGY AND BIOTECHNOLOGY",
+  "PLANT BREEDING & SEED TECHNOLOGY",
+  "PLANT BREEDING AND SEED SCIENCE",
+  "PLANT PHYSIOLOGY & CROP PRODUCTION",
+  "PLANT SCIENCE",
+  "PLANT SCIENCE AND FORESTRY",
+  "PLANT SCIENCE AND MICROBIOLOGY",
+  "PLANT SCIENCE AND BIOTECHNOLOGY",
+  "PLANT SCIENCE AND CROP PRODUCTION",
+  "PLANT SCIENCE AND BIOTECHNOLOGY",
+  "POLICY AND ADMINISTRATIVE STUDIES",
+  "POLICY AND STRATEGIC STUDIES",
+  "POLITICAL AND ADMINISTRATIVE STUDIES",
+  "POLITICAL SCIENCE",
+  "POLITICAL SCIENCE AND INTERNATIONAL RELATIONS",
+  "POLITICAL SCIENCE AND INTERNATIONAL STUDIES",
+  "POLITICAL SCIENCE / INTERNTIONAL LAW AND DIPLOMACY",
+  "POLITICAL SCIENCE AND CONFLICT RESOLUTION",
+  "POLITICAL SCIENCE AND DEFENCE STUDIES",
+  "POLITICAL SCIENCE AND DIPLOMACY",
+  "POLITICAL SCIENCE AND PUBLIC ADMINISTRATION",
+  "POLYMER AND TEXTILE ENGINEERING",
+  "POLYMER ENGINEERING",
+  "POPULATION STUDIES",
+  "PORT MANAGEMENT",
+  "PORTUGUESE",
+  "PORTUGUESE/ENGLISH",
+  "PRE-PRIMARY AND PRIMARY EDUCATION",
+  "PRIMARY AND ELEMENTARY EDUCATION",
+  "PRIMARY EDUCATION STUDIES",
+  "PRODUCTION ENGINEERING",
+  "PROSTHESIS AND ORTHOPAEDIC TECHNOLOGY",
+  "PSYCHOLOGY",
+  "PSYCHOLOGY EDUCATION",
+  "PUBLIC ADMINISTRATION",
+  "PUBLIC ADMINISTRATION AND LOCAL GOVERNMENT",
+  "PUBLIC ADMINISTRATION AND LOCAL GOVT",
+  "PUBLIC AND COMMUNITY HEALTH",
+  "PUBLIC AND PRIVATE INTERNATIONAL LAW",
+  "PUBLIC HEALTH",
+  "PUBLIC HEALTH TECHNOLOGY",
+  "PUBLIC HEALTH SCIENCE",
+  "PUBLIC RELATIONS AND ADVERTISING",
+  "PURE AND APPLIED MATHEMATICS",
+  "PURE AND APPLIED BIOLOGY",
+  "PURE AND APPLIED CHEMISTRY",
+  "PURE AND APPLIED PHYSICS",
+  "PURE AND INDUSTRIAL CHEMISTRY",
+  "PURE AND INDUSTRIAL PHYSICS",
+  "PURE CHEMISTRY",
+  "PURE PHYSICS",
+  "QUANTITY SURVEYING",
+  "RADIOGRAPHY",
+  "RELIGIOUS AND CULTURAL STUDIES",
+  "RELIGIOUS AND HUMAN RELATIONS",
+  "RELIGIOUS STUDIES",
+  "REMOTE SENSING AND GEOSCIENCES INFORMATION SYSTEM",
+  "RUSSIAN",
+  "RUSSIAN WITH FRENCH/GERMAN",
+  "SCIENCE EDUCATION",
+  "SCIENCE LABORATORY TECHNOLOGY",
+  "SECRETARIAL ADMINISTRATION",
+  "SECRETARIAL ADMINISTRATION AND EDUCATION",
+  "SECRETARIAL EDUCATION",
+  "SHIPPING AND MARITIME TECHNOLOGY",
+  "SOCIAL JUSTICE",
+  "SOCIAL WORK",
+  "SOCIOLOGY",
+  "SOCIOLOGY AND ANTHROPOLGY",
+  "SOFTWARE ENGINEERING",
+  "SOIL AND ENVIRONMENTAL MANAGEMENT",
+  "SOIL SCIENCE",
+  "SOIL SCIENCE AND LAND AGRO-CLIMATOLOGY",
+  "SOIL SCIENCE AND LAND MANAGEMENT",
+  "SOIL SCIENCE AND TECHNOLOGY",
+  "SOIL SCIENCE MANAGEMENT",
+  "SPECIAL EDUCATION",
+  "SPORT SCIENCE",
+  "SPORT SCIENCE AND HEALTH EDUCATION",
+  "STATISTICS",
+  "STATISTICS EDUCATION",
+  "STATISTICS WITH DEMOGRAPHY",
+  "STATISTICS/COMPUTER SCIENCE EDUCATION",
+  "STRUCTURAL ENGINEERING",
+  "SURVEYING AND GEOINFORMATICS",
+  "SYSTEMS ENGINEERING",
+  "TAXATION",
+  "TEACHER EDUCATION",
+  "TECHNICAL EDUCATION",
+  "TECHNOLOGICAL MANAGEMENT",
+  "TECHNOLOGY AND VOCATIONAL EDUCATION",
+  "TECHNOLOGY EDUCATION",
+  "TELECOMMUNICATION MANAGEMENT",
+  "TELECOMMUNICATION SCIENCE",
+  "TELECOMMUNICATION AND WIRELESS TECHNOLOGY",
+  "TELECOMMUNICATION ENGINEERING",
+  "TEXTILE SCIENCE AND TECHNOLOGY",
+  "THEATRE AND FILM STUDIES",
+  "THEATRE AND MEDIA ARTS",
+  "THEATRE AND PERFORMING ARTS",
+  "THEATRE ARTS",
+  "THEOLOGY",
+  "TOURISM AND EVENT MANAGEMENT",
+  "TOURISM STUDIES",
+  "TRANSPORT AND PLANNING",
+  "TRANSPORT AND TOURISM",
+  "TRANSPORT AND LOGISTICS MANAGEMENT",
+  "TRANSPORT LOGISTICS MANAGEMENT",
+  "TRANSPORT MANAGEMENT",
+  "TRANSPORT MANAGEMENT TECHNOLOGY",
+  "TRANSPORT PLANNING AND MANAGEMENT",
+  "TRANSPORT PLANNING AND MANAGEMENT AND EDUCATION TPM",
+  "URBAN AND REGIONAL PLANNING",
+  "VETERINARY MEDICINE",
+  "VISUAL AND APPLIED ARTS",
+  "VISUAL ARTS AND TECHNOLOGY",
+  "VOCATIONAL AND TECHNICAL EDUCATION",
+  "VOCATIONAL EDUCATION",
+  "VOCATIONAL INDUSTRIAL EDUCATION",
+  "WATER RESOURCES AND ENVIROMENTAL ENGINEERING",
+  "WATER RESOURCES AQUACULTURE AND FISHERIES TECHNOLOGY",
+  "WATER RESOURCES MANAGEMENT AND AGROMETEOROLOGY",
+  "WILDLIFE MANAGEMENT",
+  "WOOD PRODUCTION ENGINEERING",
+  "WOOD PRODUCTS ENGINEERING",
+  "WOODWORK TECHNOLOGY EDUCATION",
+  "WOODWORK/EDUCATION",
+  "YORUBA",
+  "YORUBA AND COMMUNICATION ARTS",
+  "ZOOLOGY",
+  "ZOOLOGY AND AQUACULTURE",
+  "ZOOLOGY AND ENVIRONMENTAL BIOLOGY",
 ];
 
-
 interface QuizQuestion {
-    id: number
-    question: string
-    options: string[]
+  id: number;
+  question: string;
+  options: string[];
 }
 
 const questions: QuizQuestion[] = [
   {
-      id: 1,
-      question: "Do you work well under pressure?",
-      options: ["Yes", "No"],
+    id: 1,
+    question: "Do you work well under pressure?",
+    options: ["Yes", "No"],
   },
   {
-      id: 2,
-      question: "Have you had any remote working opportunity in the past?",
-      options: ["Yes", "No"],
+    id: 2,
+    question: "Have you had any remote working opportunity in the past?",
+    options: ["Yes", "No"],
   },
   {
-      id: 3,
-      question: "Do you have stable internet connection?",
-      options: ["Yes", "No"],
+    id: 3,
+    question: "Do you have stable internet connection?",
+    options: ["Yes", "No"],
   },
   {
-      id: 4,
-      question: "You understand that Virtualting is not a freelance or outsourcing work model and that you are a full employee of each company that hires you and all labour law applies",
-      options: ["Yes", "No"]
+    id: 4,
+    question:
+      "You understand that Virtualting is not a freelance or outsourcing work model and that you are a full employee of each company that hires you and all labour law applies",
+    options: ["Yes", "No"],
   },
   {
-      id: 5,
-      question: "You understand that you are expected to work for up to 4 companies",
-      options: ["Yes", "No"]
+    id: 5,
+    question:
+      "You understand that you are expected to work for up to 4 companies",
+    options: ["Yes", "No"],
   },
   {
-      id: 6,
-      question: "You understand that this is an offer of employment and not freelancing",
-      options: ["Yes", "No"]
+    id: 6,
+    question:
+      "You understand that this is an offer of employment and not freelancing",
+    options: ["Yes", "No"],
   },
   {
-      id: 7,
-      question: "You understand that you have been classed at Intern Level 1 with a full salary of N75,000",
-      options: ["Yes", "No"]
+    id: 7,
+    question:
+      "You understand that you have been classed at Intern Level 1 with a full salary of N75,000",
+    options: ["Yes", "No"],
   },
   {
-      id: 8,
-      question: "You understand that you are meant to put in a total of at least 40hrs per month for each company slot",
-      options: ["Yes", "No"]
+    id: 8,
+    question:
+      "You understand that you are meant to put in a total of at least 40hrs per month for each company slot",
+    options: ["Yes", "No"],
   },
   {
-      id: 9,
-      question: "You understand that your hourly rate is N468.75/hr and over time rate will be N703.125/hr (150% of the hourly rate)",
-      options: ["Yes", "No"]
+    id: 9,
+    question:
+      "You understand that your hourly rate is N468.75/hr and over time rate will be N703.125/hr (150% of the hourly rate)",
+    options: ["Yes", "No"],
   },
   {
-      id: 10,
-      question: "You understand that each slot of 2hrs will entitle you to a N18,750 salary",
-      options: ["Yes", "No"]
+    id: 10,
+    question:
+      "You understand that each slot of 2hrs will entitle you to a N18,750 salary",
+    options: ["Yes", "No"],
   },
   {
-      id: 11,
-      question: "You understand that you are meant to have an employment bond where you deposit a percentage of your salary for a period of 3 to 6 months at every employment level to an equivalent of 1 month salary of your salary. This bond remains your money when you leave the company and some percentage can be used as assets collateral with the approval of your employer(s)",
-      options: ["Yes", "No"]
+    id: 11,
+    question:
+      "You understand that you are meant to have an employment bond where you deposit a percentage of your salary for a period of 3 to 6 months at every employment level to an equivalent of 1 month salary of your salary. This bond remains your money when you leave the company and some percentage can be used as assets collateral with the approval of your employer(s)",
+    options: ["Yes", "No"],
   },
   {
-      id: 12,
-      question: "You understand that there can be deduction for hours not put in or for when delivery is far below standard",
-      options: ["Yes", "No"]
+    id: 12,
+    question:
+      "You understand that there can be deduction for hours not put in or for when delivery is far below standard",
+    options: ["Yes", "No"],
   },
   {
-      id: 13,
-      question: "You understand that the first 3 days is a no-pay period (if work skill level not accepted) and will be pro-rated if the employer is satisfied",
-      options: ["Yes", "No"]
+    id: 13,
+    question:
+      "You understand that the first 3 days is a no-pay period (if work skill level not accepted) and will be pro-rated if the employer is satisfied",
+    options: ["Yes", "No"],
   },
   {
-      id: 14,
-      question: "You understand that you will be put under probation for the first 3 months of work with your employer",
-      options: ["Yes", "No"]
+    id: 14,
+    question:
+      "You understand that you will be put under probation for the first 3 months of work with your employer",
+    options: ["Yes", "No"],
   },
   {
-      id: 15,
-      question: "You understand that promotion/salaries will be reviewed every 3 months at intern level",
-      options: ["Yes", "No"]
+    id: 15,
+    question:
+      "You understand that promotion/salaries will be reviewed every 3 months at intern level",
+    options: ["Yes", "No"],
   },
   {
-      id: 16,
-      question: "You understand that you will be required to take a promotion test to be able to move to the next grade level",
-      options: ["Yes", "No"]
+    id: 16,
+    question:
+      "You understand that you will be required to take a promotion test to be able to move to the next grade level",
+    options: ["Yes", "No"],
   },
   {
-      id: 17,
-      question: "You understand that the employer will pay you a severance package to a maximum of 1-month additional pay if they have to terminate your contract without you bridging any requirement and that you will forfeit your bond savings if you leave without the appropriate time given or all company assets returned",
-      options: ["Yes", "No"]
+    id: 17,
+    question:
+      "You understand that the employer will pay you a severance package to a maximum of 1-month additional pay if they have to terminate your contract without you bridging any requirement and that you will forfeit your bond savings if you leave without the appropriate time given or all company assets returned",
+    options: ["Yes", "No"],
   },
   {
-      id: 18,
-      question: "You shall be required to pay 8% of your salary as contribution towards your pension savings monthly as mandated by law and your employer will be required to pay an additional 10% of your salary as mandatory contribution",
-      options: ["Yes", "No"]
+    id: 18,
+    question:
+      "You shall be required to pay 8% of your salary as contribution towards your pension savings monthly as mandated by law and your employer will be required to pay an additional 10% of your salary as mandatory contribution",
+    options: ["Yes", "No"],
   },
   {
-      id: 19,
-      question: "You understand that weekly salary payment will be done every Thursdays, bi-weekly payment on the 15th of the month and monthly salary payment will be done on the 25th of the month",
-      options: ["Yes", "No"]
+    id: 19,
+    question:
+      "You understand that weekly salary payment will be done every Thursdays, bi-weekly payment on the 15th of the month and monthly salary payment will be done on the 25th of the month",
+    options: ["Yes", "No"],
   },
   {
-      id: 20,
-      question: "You understand that all salaries will be paid by Frontlett into your virtual account with our banking provider",
-      options: ["Yes", "No"]
+    id: 20,
+    question:
+      "You understand that all salaries will be paid by Frontlett into your virtual account with our banking provider",
+    options: ["Yes", "No"],
   },
   {
-      id: 21,
-      question: "You understand that you are supposed to submit daily work done for assessment by your employer",
-      options: ["Yes", "No"]
+    id: 21,
+    question:
+      "You understand that you are supposed to submit daily work done for assessment by your employer",
+    options: ["Yes", "No"],
   },
   {
-      id: 22,
-      question: "You plan to keep to the work time as you will most times be working as a team and if need be to change the time, you notify your employer 24hrs before",
-      options: ["Yes", "No"]
+    id: 22,
+    question:
+      "You plan to keep to the work time as you will most times be working as a team and if need be to change the time, you notify your employer 24hrs before",
+    options: ["Yes", "No"],
   },
   {
-      id: 23,
-      question: "You understand you are meant to have your complete work tool and a proper work desk before joining the platform",
-      options: ["Yes", "No"]
-  }
+    id: 23,
+    question:
+      "You understand you are meant to have your complete work tool and a proper work desk before joining the platform",
+    options: ["Yes", "No"],
+  },
 ];
+
+export interface EmployerQuizQuestion {
+  id: number;
+  question: string;
+  options: string[];
+}
+
+export const employerQuestions: EmployerQuizQuestion[] = [
+  // Section 1 – Organizational Readiness
+  {
+    id: 1,
+    question:
+      "Do you have clearly defined tasks or responsibilities for a Virtualting staff member to own?",
+    options: ["Yes", "No"],
+  },
+  {
+    id: 2,
+    question:
+      "Have you identified a supervisor or point of contact to guide and support the talent?",
+    options: ["Yes", "No"],
+  },
+  {
+    id: 3,
+    question:
+      "Do you understand that Virtualting staff are full-time employees, not freelancers?",
+    options: ["Yes", "No"],
+  },
+  {
+    id: 4,
+    question:
+      "Are you prepared to provide onboarding, context, and tools to help them succeed?",
+    options: ["Yes", "No"],
+  },
+  {
+    id: 5,
+    question:
+      "Will you introduce them to internal team members to enable collaboration?",
+    options: ["Yes", "No"],
+  },
+  // Section 2 – Legal & Compliance Awareness
+  {
+    id: 6,
+    question:
+      "Are you aware that Virtualting staff must be treated fairly under labor and data protection laws (e.g., NDPR)?",
+    options: ["Yes", "No"],
+  },
+  {
+    id: 7,
+    question:
+      "Are you open to signing NDAs and following shared staffing policies?",
+    options: ["Yes", "No"],
+  },
+  {
+    id: 8,
+    question:
+      "Do you understand that termination must follow due process and platform policy?",
+    options: ["Yes", "No"],
+  },
+  {
+    id: 9,
+    question:
+      "Do you understand that you are responsible for health insurance coverage for your Virtualting staff as part of full-time employment?",
+    options: ["Yes", "No"],
+  },
+  {
+    id: 10,
+    question:
+      "Do you understand that you would have to make upfront escrow payments as part of our protection model?",
+    options: ["Yes", "No"],
+  },
+  // Section 3 – Communication & Ongoing Support
+  {
+    id: 11,
+    question:
+      "Will you provide structured performance feedback at least monthly or biweekly?",
+    options: ["Yes", "No"],
+  },
+  {
+    id: 12,
+    question:
+      "Are you ready to raise performance concerns early through proper channels?",
+    options: ["Yes", "No"],
+  },
+  {
+    id: 13,
+    question:
+      "Do you know that Frontlett HR will help manage underperformance fairly?",
+    options: ["Yes", "No"],
+  },
+  {
+    id: 14,
+    question:
+      "Are you open to rotations or replacements if productivity isn’t optimal?",
+    options: ["Yes", "No"],
+  },
+  {
+    id: 15,
+    question:
+      "Will you participate in review calls to ensure success for you and the talent?",
+    options: ["Yes", "No"],
+  },
+];
+
 export { schools, courses, questions };
-export type { School, QuizQuestion }
+export type { School, QuizQuestion };

@@ -310,7 +310,7 @@ export default function JobPosting() {
                     <div className="grid grid-cols-3 items-start gap-2 w-full">
                         {job?.time_slot?.map((slot, index) => <button key={`${slot.day}_${slot.start}_save`} type="button"
                             onClick={() => handleSelect(index)}
-                            className={`flex flex-col w-full p-2 items-start gap-[10px] text-left self-stretch rounded-[12px] border w-full dark:border-neutral-500 ${form.slot.includes(slot) ? 'bg-[rgba(37,_99,_235,_0.05)]' : ''}`}>
+                            className={`flex flex-col w-full p-2 items-start gap-[10px] text-left self-stretch rounded-[12px] border dark:border-neutral-500 ${form.slot.includes(slot) ? 'bg-[rgba(37,_99,_235,_0.05)]' : ''}`}>
                             <div className="flex items-start gap-[12px] self-stretch">
                                 <div className="flex w-[20px] h-[20px] justify-center items-center bg-[rgba(0,_0,_0,_0.00)]">
                                     <LuCalendar size={20} color="#2563EB" />

@@ -13,6 +13,8 @@ type User = {
   phone_number: string;
   location?: string;
   company_name?: string;
+  rc_number?: string;
+  rc_verified?: boolean;
   invited_count: number;
   invite_tokens: number;
   role: "employee" | "business" | "admin" | "adviser" | "influencer";
