@@ -8,7 +8,7 @@
   --font-koho: "KoHo";
   --font-amiko: "Amiko";
   --font-segoe: "Segoe UI";
-  --font-proxima: 'Proxima Nova Rg', sans-serif;
+  --font-proxima: "Proxima Nova Rg", sans-serif;
 
   /* --color-primary: #1279e0; */
   --color-primary-light: #c8e2ff;
@@ -61,18 +61,22 @@ button {
 }
 
 @keyframes wave {
- 0% {  box-shadow:
-  0 0 0 0px rgba(255, 255,255, 1),
-  0 0 0 20px rgba(255, 255,255, 0.2),
-  0 0 0 40px rgba(255, 255,255, 0.6),
-  0 0 0 60px rgba(255, 255,255, 0.4),
-  0 0 0 80px #0764ea33;
+  0% {
+    box-shadow: 0 0 0 0px rgba(255, 255, 255, 1),
+      0 0 0 20px rgba(255, 255, 255, 0.2), 0 0 0 40px rgba(255, 255, 255, 0.6),
+      0 0 0 60px rgba(255, 255, 255, 0.4), 0 0 0 80px #0764ea33;
   }
-  100% {  box-shadow:
-    0 0 0 80px rgba(255, 255,255, 0),
-    0 0 0 60px rgba(255, 255,255, 0.2),
-    0 0 0 40px rgba(255, 255,255, 0.4),
-    0 0 0 20px rgba(255, 255,255, 0.6),
-    0 0 0 0px #0764ea;
+  100% {
+    box-shadow: 0 0 0 80px rgba(255, 255, 255, 0),
+      0 0 0 60px rgba(255, 255, 255, 0.2), 0 0 0 40px rgba(255, 255, 255, 0.4),
+      0 0 0 20px rgba(255, 255, 255, 0.6), 0 0 0 0px #0764ea;
   }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
 }

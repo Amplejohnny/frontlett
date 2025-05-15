@@ -1,8 +1,7 @@
 // This component is used to display the "Feature Comparison" section in the pricing plan page.
-import { usePricingStore } from "~/stores/pricingStore";
+import { usePricingStore } from "~/stores/employerPricingStore";
 import Button from "~/components/ui/button";
-import { cn } from "~/libs/utils";
-import { getPriceLabel } from "~/libs/utils";
+import { cn, getPriceLabel } from "~/libs/utils";
 
 const FeatureComparisonTable = () => {
   const priceTypes = [
@@ -11,7 +10,6 @@ const FeatureComparisonTable = () => {
     "Pro",
     "Lifetime Pro",
   ] as const;
-  type PriceType = (typeof priceTypes)[number];
 
   const { plans, currency, billingCycle, openModal } = usePricingStore();
 
@@ -44,7 +42,11 @@ const FeatureComparisonTable = () => {
             <td className="p-3">Max Hires</td>
             {plans.map((plan) => (
               <td key={plan.id} className="p-3 text-center">
-                {plan.hireRange}
+                {plan.hireRange
+                  ? /unlimited/i.test(plan.hireRange)
+                    ? "Unlimited"
+                    : plan.hireRange.match(/\d+\s*(–|-)?\s*\d*/)?.[0] || "-"
+                  : "-"}
               </td>
             ))}
           </tr>
@@ -53,7 +55,13 @@ const FeatureComparisonTable = () => {
             <td className="p-3">Max Businesses</td>
             {plans.map((plan) => (
               <td key={plan.id} className="p-3 text-center">
-                {plan.businessLimit}
+                {plan.businessLimit
+                  ? /unlimited/i.test(plan.businessLimit)
+                    ? "Unlimited"
+                    : plan.businessLimit.match(/Up to \d+/i)?.[0] ||
+                      plan.businessLimit.match(/\d+/)?.[0] ||
+                      "-"
+                  : "-"}
               </td>
             ))}
           </tr>
@@ -138,16 +146,8 @@ const FeatureComparisonTable = () => {
           </tr>
 
           {priceTypes.map((priceType) => (
-            <tr
-              key={priceType}
-              className={cn(
-                "border-t",
-                (priceType === "Lifetime Basic" ||
-                  priceType === "Lifetime Pro") &&
-                  "text-pink-700"
-              )}
-            >
-              <td className="p-3 font-medium align-top">
+            <tr key={priceType} className={cn("border-t")}>
+              <td className="p-3 font-medium align-top border border-pink-300">
                 <div>
                   {priceType}
                   {priceType === "Lifetime Basic" && (
@@ -164,18 +164,10 @@ const FeatureComparisonTable = () => {
               </td>
 
               {plans.map((plan) => {
-                const priceObj = plan.prices[currency][billingCycle];
+                const priceValue =
+                  plan.prices?.[currency]?.[billingCycle]?.[priceType] ?? null;
 
-                const price =
-                  priceType === "Basic"
-                    ? priceObj
-                    : priceType === "Lifetime Basic"
-                    ? priceObj && priceObj * 6
-                    : priceType === "Pro"
-                    ? priceObj && priceObj * 2
-                    : priceType === "Lifetime Pro"
-                    ? priceObj && priceObj * 10
-                    : null;
+                const price = priceValue === 0 ? null : priceValue;
 
                 const isRequestQuote = plan.requestQuote || price === null;
                 const isFreePlan = plan.name === "Free for Life";
@@ -184,8 +176,8 @@ const FeatureComparisonTable = () => {
 
                 return (
                   <td
-                    key={plan.id + priceType}
-                    className="p-3 text-center align-top"
+                    key={`${plan.id}-${priceType}`}
+                    className="p-3 text-center align-top border border-pink-300"
                   >
                     {isRequestQuote ? (
                       <button className="text-sm text-blue-600 underline">
@@ -196,7 +188,7 @@ const FeatureComparisonTable = () => {
                     ) : (
                       <div className="flex flex-col items-center gap-1">
                         <span className="font-medium text-sm">
-                          {getPriceLabel(price)}
+                          {getPriceLabel(price, currency)}
                         </span>
                         {showSubscribe && priceType !== "Basic" && (
                           <Button

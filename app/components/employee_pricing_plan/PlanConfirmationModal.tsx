@@ -1,17 +1,9 @@
 // components/PlanConfirmationModal.tsx
 import { useEffect } from "react";
-import { usePricingStore } from "~/stores/pricingStore";
-import type { PriceType } from "~/stores/pricingStore";
+import { usePricingStore } from "~/stores/employeePricingStore";
 import Button from "~/components/ui/button";
 import { LuX, LuInfo } from "react-icons/lu";
-import { cn } from "~/libs/utils";
-
-const priceMultiplier: Record<PriceType, number> = {
-  Basic: 1,
-  "Lifetime Basic": 3,
-  Pro: 2,
-  "Lifetime Pro": 4,
-};
+import { cn, getPriceLabel } from "~/libs/utils";
 
 export default function PlanConfirmationModal() {
   const {
@@ -22,35 +14,43 @@ export default function PlanConfirmationModal() {
     isModalOpen,
     selectedPlanId,
     selectedPriceType,
-    closeModal,
     includeAddOns,
-    setIncludeAddOns,
     totalPrice,
+    selectedAddOns,
+    setIncludeAddOns,
     setTotalPrice,
+    closeModal,
+    setSelectedAddOns,
   } = usePricingStore();
 
   const plan = plans.find((p) => p.id === selectedPlanId) ?? null;
-  const basePrice = plan?.prices[currency][billingCycle] ?? null;
+  const basePrice =
+    plan?.prices[currency]?.[billingCycle]?.[selectedPriceType!] ?? null;
+
+  // Filter add-ons based on the selected plan's name
+  const planAddOns = addOns.filter((addon) => addon.planName === plan?.name);
 
   const isMonthly = billingCycle === "monthly";
-  const isAddOnDisabled = !plan || isMonthly || plan.name === "Free for Life";
-
-  const { selectedAddOns, setSelectedAddOns } = usePricingStore();
+  const isAddOnDisabled = !plan || isMonthly;
 
   const toggleAddOn = (type: string) => {
     if (isAddOnDisabled) return;
-    setSelectedAddOns((prev) => (prev[0] === type ? [] : [type]));
+    setSelectedAddOns((prev) => {
+      if (prev.includes(type)) {
+        return prev.filter((id) => id !== type);
+      } else if (prev.length < 2) {
+        return [...prev, type];
+      }
+      return prev;
+    });
   };
 
   const addonCost = selectedAddOns.reduce((sum, id) => {
-    const addon = addOns.find((a) => a.id === id);
+    const addon = planAddOns.find((a) => a.id === id);
     return sum + (addon ? addon.price[currency] : 0);
   }, 0);
 
-  const rawTotal =
-    basePrice && selectedPriceType
-      ? basePrice * priceMultiplier[selectedPriceType] + addonCost
-      : null;
+  const rawTotal = basePrice !== null ? basePrice + addonCost : null;
 
   // Persist total price globally
   useEffect(() => {
@@ -73,7 +73,6 @@ export default function PlanConfirmationModal() {
         }).format(value)
       : "N/A";
 
-  //Backend API call to handle subscription
   const handleSubmit = async () => {
     if (!selectedPlanId || !selectedPriceType || !totalPrice) return;
 
@@ -102,7 +101,6 @@ export default function PlanConfirmationModal() {
     }
   };
 
-  // Modal rendering logic
   if (!isModalOpen || !plan || !selectedPriceType) return null;
 
   return (
@@ -117,14 +115,14 @@ export default function PlanConfirmationModal() {
 
         <h3 className="text-lg font-semibold mb-6">Choose Your Plan</h3>
 
-        {/* Plan boxes */}
         <div className="flex justify-between gap-4 mb-6">
           <div className="border rounded-md p-4 flex-1 text-sm">
             <p className="text-gray-400 font-medium">Current Plan</p>
             <p className="font-semibold">{plans[0]?.name ?? "Free for Life"}</p>
             <p className="text-xs">
-              Hire for 1 Slot
-              <br />1 Business
+              Get Hired
+              <br />
+              Create 1 Profile
             </p>
             <p className="mt-2">{formatted(0)}/year</p>
           </div>
@@ -132,65 +130,72 @@ export default function PlanConfirmationModal() {
             <p className="text-blue-500 font-medium">New Plan</p>
             <p className="font-semibold">{plan.name}</p>
             <p className="text-xs">
-              {plan.hireRange}
+              {plan.profileLimit}
               <br />
-              {plan.businessLimit}
+              {plan.resourceAccess}
             </p>
-            <p className="mt-2">{formatted(basePrice)}/year</p>
+            <p className="mt-2">
+              {getPriceLabel(basePrice, currency)}/year
+            </p>
           </div>
         </div>
 
-        {/* Price summary */}
+        {/* Price breakdown */}
         <div className="space-y-3 border-t pt-4 text-sm mb-6">
           <div className="flex justify-between">
             <span>New plan price:</span>
-            <span>{formatted(basePrice)}</span>
+            <span>{getPriceLabel(basePrice, currency)}</span>
           </div>
-          {selectedAddOns.length > 0 && (
-            <div className="flex justify-between items-center">
-              <span className="flex items-center gap-1">
-                Business Add-ons
-                <LuInfo
-                  className="w-4 h-4 text-gray-400"
-                  title="Extra businesses or hiring capacity"
-                />
-              </span>
-              <span>{formatted(addonCost)}</span>
-            </div>
-          )}
+          {selectedAddOns
+            .map((id) => addOns.find((addon) => addon.id === id))
+            .filter(Boolean)
+            .map((addon) => (
+              <div
+                key={addon!.id}
+                className="flex justify-between items-center"
+              >
+                <span className="flex items-center gap-1">
+                  {addon!.name} Add-ons
+                  <LuInfo
+                    className="w-4 h-4 text-gray-400"
+                    title="Allows you to manage extra profile or resource capacity"
+                  />
+                </span>
+                <span>
+                  {getPriceLabel(addon!.price[currency], currency)}
+                </span>
+              </div>
+            ))}
+
           <div className="flex justify-between font-semibold">
             <span>Prorated amount:</span>
-            <span>{formatted(rawTotal)}</span>
+            <span>{getPriceLabel(rawTotal, currency)}</span>
           </div>
         </div>
 
-        {/* Add-ons */}
+        {/* Add-ons section */}
         <div className="mb-6">
           <p className="font-medium text-sm mb-2">Available Add-ons</p>
           <div className="flex gap-4 flex-wrap">
-            {addOns.map((addon) => {
+            {planAddOns.map((addon) => {
               const isSelected = selectedAddOns.includes(addon.id);
               const price = addon.price[currency];
-              const isLocked =
-                selectedAddOns.length === 1 && !isSelected && !isAddOnDisabled;
               return (
                 <div
                   key={addon.id}
                   onClick={() => toggleAddOn(addon.id)}
                   className={cn(
-                    "relative min-w-[120px] p-4 rounded-md border transition-all",
-                    isAddOnDisabled || isLocked
+                    "relative w-[140px] p-4 rounded-md border transition-all",
+                    isAddOnDisabled
                       ? "opacity-50 cursor-not-allowed bg-gray-50 border-gray-200"
                       : "cursor-pointer",
                     isSelected
                       ? "border-blue-500 bg-blue-50"
-                      : !isAddOnDisabled && !isLocked
-                      ? "hover:border-gray-400"
-                      : ""
+                      : "hover:border-gray-400"
                   )}
                 >
                   <div className="flex items-start justify-between">
-                    <p className="font-medium text-sm">{addon.label}</p>
+                    <p className="font-medium text-sm">{addon.name}</p>
                     {isSelected && (
                       <div
                         className="absolute top-2 right-2 text-green-600 text-lg"
@@ -199,15 +204,8 @@ export default function PlanConfirmationModal() {
                         ✔️
                       </div>
                     )}
-                    {isLocked && (
-                      <div
-                        className="absolute top-2 right-2 text-gray-400 text-lg"
-                        title="Only one add-on allowed"
-                      >
-                        🔒
-                      </div>
-                    )}
-                    {isAddOnDisabled && !isLocked && (
+
+                    {isAddOnDisabled && (
                       <div
                         className="absolute top-2 right-2 text-red-500 text-lg"
                         title="Requires annual paid plan"
@@ -218,12 +216,13 @@ export default function PlanConfirmationModal() {
                   </div>
                   <p className="text-xs text-gray-500 mt-1">Billed annually</p>
                   <p className="text-sm font-semibold mt-2">
-                    {formatted(price)}/Annually
+                    {getPriceLabel(price, currency)}/Annually
                   </p>
                 </div>
               );
             })}
           </div>
+
           {isAddOnDisabled && (
             <p className="text-xs text-red-500 mt-2 flex items-center gap-1">
               <LuInfo className="inline-block" />
@@ -232,11 +231,10 @@ export default function PlanConfirmationModal() {
           )}
         </div>
 
-        {/* Total + Actions */}
         <div className="border-t pt-4 flex flex-col gap-4">
           <div className="flex justify-between font-semibold text-base">
             <span>Total:</span>
-            <span>{formatted(totalPrice)}/year</span>
+            <span>{getPriceLabel(totalPrice, currency)}/year</span>
           </div>
           <div className="flex justify-end gap-3">
             <Button variant="outline" onClick={closeModal}>

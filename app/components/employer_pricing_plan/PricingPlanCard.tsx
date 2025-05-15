@@ -1,7 +1,9 @@
 // This component is used to display the "Pricing Plan card" section in the pricing plan page.
-import { usePricingStore } from "~/stores/pricingStore";
-import { cn } from "~/libs/utils";
-import { getPriceLabel } from "~/libs/utils";
+import { usePricingStore } from "~/stores/employerPricingStore";
+import { cn, getPriceLabel } from "~/libs/utils";
+import type { PriceType } from "~/stores/employerPricingStore";
+
+const DEFAULT_PRICE_TYPE: PriceType = "Basic";
 
 const PricingPlanCard = () => {
   const { plans, currency, billingCycle } = usePricingStore();
@@ -9,22 +11,24 @@ const PricingPlanCard = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
       {plans.map((plan) => {
-        const priceObj = plan.prices[currency][billingCycle];
+        const priceValue =
+          plan.prices?.[currency]?.[billingCycle]?.[DEFAULT_PRICE_TYPE] ?? null;
         const priceLabel = plan.requestQuote
           ? "Request Quote"
-          : getPriceLabel(priceObj);
+          : getPriceLabel(priceValue, currency);
 
         return (
           <div
             key={plan.id}
             className={cn(
               "rounded-xl border border-gray-200 p-5 flex flex-col items-center text-center shadow-sm",
+              plan.name === "Free for Life" && "bg-[#F9FAFB]",
               plan.name === "SME" &&
-                "bg-gradient-to-br from-[#0052CC] to-[#0075FF] text-white",
-              plan.name === "Startup" && "bg-[#F0FFF5]",
-              plan.name === "Corporate" && "bg-[#F9FAFB]",
+                "bg-gradient-to-br from-[#2563EB] to-[#0D9488] text-white",
+              plan.name === "Startup" && "bg-[#ECFDF5]",
+              plan.name === "Corporate" && "bg-[#F3F4F6]",
               plan.name === "Government/Institution" &&
-                "border-2 border-orange-400 bg-white"
+                "border-2 border-orange-400 bg-[#F3F4F6]"
             )}
           >
             <h4 className="font-bold text-lg mb-1">{plan.name}</h4>
