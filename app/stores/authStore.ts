@@ -3,7 +3,7 @@ import { type AxiosResponse } from "axios";
 import { deleteRequest, get, post } from "../libs/axios";
 import { persist, createJSONStorage } from "zustand/middleware";
 
-type User = {
+export type User = {
   // workId: string;
   email: string;
   id: string;
