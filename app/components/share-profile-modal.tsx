@@ -159,27 +159,3 @@ const ShareProfileModal: React.FC<ShareProfileModalProps> = ({
 };
 
 export default ShareProfileModal;
-
-//This is for when the link is clicked and takes the user to the empty profile page promting them to create a profile
-// const profileLinkPage = () => {
-//   return (
-//     <div className="min-h-screen flex items-center justify-center bg-white px-4">
-//       <div className="flex items-center gap-2 bg-blue-50 text-blue-600 text-sm px-4 py-2 rounded-full shadow-sm max-w-xl">
-//         <LuInfo className="w-4 h-4 shrink-0" />
-
-//         <span>
-//           This Resource's profile is only available to Frontlett customers.
-//           Please{" "}
-//           <a href="/login" className="underline hover:text-blue-700">
-//             login
-//           </a>{" "}
-//           or{" "}
-//           <a href="/signup" className="underline hover:text-blue-700">
-//             sign up
-//           </a>{" "}
-//           to view their profile.
-//         </span>
-//       </div>
-//     </div>
-//   );
-// };

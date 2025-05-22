@@ -114,7 +114,7 @@ const BusinessDashboard = (loaderData: { jobs?: Job[]; dashboard?: number[] }) =
                             </div>
                         </div>}
 
-                        {jobs.length > 0 && <div className="flex flex-col self-start items-start gap-[1px] self-stretch">
+                        {jobs.length > 0 && <div className="flex flex-col items-start gap-[1px] self-stretch">
                             <div className="flex p-[16px] flex-col items-start gap-[10px] self-stretch bg-[rgba(0,_0,_0,_0.00)]">
                                 {jobs.map(job => <div key={job.id} className="flex justify-between items-center self-stretch">
                                     <div className="flex flex-col items-start">

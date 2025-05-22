@@ -24,6 +24,62 @@ export type User = {
   percentage_completed: number;
 };
 
+export type VisitorUser = {
+  userId: string;
+  full_name: string;
+  username: string;
+  location?: string;
+  profile: {
+    profile_picture: string;
+    professional_headline: string;
+    about: string;
+    hourly_rate: number;
+    roles: string[];
+    skills: string[];
+    rating: number;
+    job_success_rate: number;
+    portfolio?: Array<{
+      title: string;
+      description: string;
+      imageUrl: string;
+      projectUrl: string;
+    }>;
+    workExperience?: Array<{
+      title: string;
+      company: string;
+      startDate: string;
+      endDate: string;
+      description: string;
+    }>;
+    currentWork?: Array<{
+      title: string;
+      status: "In Progress" | "Completed";
+      startDate: string;
+      endDate: string;
+      description: string;
+    }>;
+    education?: Array<{
+      degree: string;
+      institution: string;
+      startDate: string;
+      endDate: string;
+      description?: string;
+    }>;
+    socialMedia?: Array<{
+      platform: string;
+      url: string;
+    }>;
+  };
+  availability?: {
+    totalHours: number;
+    schedule: Array<{
+      day: string;
+      startTime: string;
+      endTime: string;
+    }>;
+  };
+};
+
 interface Profile {
   profile_picture: string;
   about: string;
