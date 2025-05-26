@@ -13,7 +13,7 @@ import { MdWorkOutline } from "react-icons/md";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { get } from "~/libs/axios";
 import type { VisitorUser } from "~/stores/authStore";
-import Skeleton from "../Skeleton";
+import { ProfileSkeleton } from "../Skeleton";
 
 interface Props {
   userId: string;
@@ -48,7 +48,7 @@ const ProfileDetails = ({ username, userId }: Props) => {
   }, [username, userId]);
 
   if (loading) {
-    return <Skeleton className="h-[200px] w-full rounded-lg" />;
+    return <ProfileSkeleton className="h-[200px] w-full rounded-lg" />;
   }
 
   if (error || !visitor) {
